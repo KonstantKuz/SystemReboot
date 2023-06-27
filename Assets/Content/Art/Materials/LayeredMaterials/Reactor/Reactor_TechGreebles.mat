@@ -1,0 +1,6 @@
+Diffuse=T_EV_BlankWhite_01
+Normal=TechGreeblePlane_TechGreebleMat_Normal
+Other[0]=LightFlash
+Other[1]=TechGreeblePlane_TechGreebleMat_BaseColor
+Other[2]=TechGreeblePlane_TechGreebleMat_OcclusionRoughnessMetallic
+Other[3]=TechGreeblesDepth

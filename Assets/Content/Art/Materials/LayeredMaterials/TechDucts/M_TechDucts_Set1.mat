@@ -1,0 +1,14 @@
+Diffuse=BlendFunc_DefBase
+Normal=Research_CeilingTiles_Normal
+Emissive=Research_CeilingTiles_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=Research_CeilingTiles_BaseColor
+Other[2]=Research_CeilingTiles_OcclusionRoughnessMetallic
+Other[3]=M_TechDucts_1_BaseColor
+Other[4]=M_TechDucts_1_Emissive
+Other[5]=M_TechDucts_1_Normal
+Other[6]=M_TechDucts_1_OcclusionRoughnessMetallic
+Other[7]=M_TechDucts_Tunnels_1_BaseColor
+Other[8]=M_TechDucts_Tunnels_1_Emissive
+Other[9]=M_TechDucts_Tunnels_1_Normal
+Other[10]=M_TechDucts_Tunnels_1_OcclusionRoughnessMetallic

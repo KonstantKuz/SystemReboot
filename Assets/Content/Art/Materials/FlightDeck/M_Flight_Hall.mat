@@ -1,0 +1,8 @@
+Diffuse=BlendFunc_DefBase
+Normal=Flight_Hall_Normal
+Emissive=Flight_Hall_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=LightFlickers
+Other[2]=Flight_Hall_BaseColor
+Other[3]=Flight_Hall_ColorMask
+Other[4]=Flight_Hall_OcclusionRoughnessMetallic

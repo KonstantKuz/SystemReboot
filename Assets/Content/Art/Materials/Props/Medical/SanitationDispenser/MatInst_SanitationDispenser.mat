@@ -1,0 +1,7 @@
+Diffuse=T_SanitationDispenser_BaseColor
+Normal=T_SanitationDispenser_Normal
+Other[0]=T_SanitationDispenser_Reflection
+Other[1]=Texture_Thermometer_BaseColor
+Other[2]=Texture_Thermometer_Emissive
+Other[3]=Texture_Thermometer_Normal
+Other[4]=Texture_Thermometer_Reflection

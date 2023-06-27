@@ -1,0 +1,102 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Art/Textures/Signage/InfographicSigns/T_InfographicsSign_BaseColor.T_InfographicsSign_BaseColor'
+    ReferencedTextures[1] = Texture2D'/Game/Art/Textures/Signage/InfographicSigns/T_InfographicsSign_Emissive.T_InfographicsSign_Emissive'
+    ReferencedTextures[2] = Texture2D'/Game/Art/Textures/Signage/InfographicSigns/T_InfographicsSign_Normal.T_InfographicsSign_Normal'
+    ReferencedTextures[3] = Texture2D'/Game/Art/Textures/Signage/InfographicSigns/T_InfographicsSign_OcclusionRoughnessMetallic.T_InfographicsSign_OcclusionRoughnessMetallic'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveOverride }
+                    ParameterInfos[1] = { Name=EmissiveStrength }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Emissive_Color }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[2] = { 0, 0 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.40625, G=0.179867, B=0, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Art/Textures/Signage/InfographicSigns/T_InfographicsSign_BaseColor.T_InfographicsSign_BaseColor'
+        ReferencedTextures[1] = Texture2D'/Game/Art/Textures/Signage/InfographicSigns/T_InfographicsSign_Emissive.T_InfographicsSign_Emissive'
+        ReferencedTextures[2] = Texture2D'/Game/Art/Textures/Signage/InfographicSigns/T_InfographicsSign_Normal.T_InfographicsSign_Normal'
+        ReferencedTextures[3] = Texture2D'/Game/Art/Textures/Signage/InfographicSigns/T_InfographicsSign_OcclusionRoughnessMetallic.T_InfographicsSign_OcclusionRoughnessMetallic'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=EmissiveOverride, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=EmissiveStrength, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.40625, G=0.179867, B=0, A=1 }
+        Name = Emissive_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_InfographicsSign_BaseColor
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_InfographicsSign_Emissive
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_InfographicsSign_Normal
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_InfographicsSign_OcclusionRoughnessMetallic
+    }
+}

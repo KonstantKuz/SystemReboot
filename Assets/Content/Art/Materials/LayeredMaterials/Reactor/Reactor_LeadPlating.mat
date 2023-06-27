@@ -1,0 +1,5 @@
+Diffuse=BlendFunc_DefBase
+Normal=WallMat_Normal
+Other[0]=BlendFunc_DefBlend
+Other[1]=WallMat_BaseColor
+Other[2]=WallMat_OcclusionRoughnessMetallic

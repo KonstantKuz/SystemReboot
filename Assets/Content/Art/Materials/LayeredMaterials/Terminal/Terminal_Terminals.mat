@@ -1,0 +1,10 @@
+Diffuse=BlendFunc_DefBase
+Normal=MonitorMat_Normal
+Other[0]=BlendFunc_DefBlend
+Other[1]=Texture_Shared_ComputerScreenEffects
+Other[2]=Texture_Shared_ComputerScreenEffects_Atlas
+Other[3]=MonitorMat_BaseColor
+Other[4]=MonitorMat_OcclusionRoughnessMetallic
+Other[5]=TerminalMat_BaseColor
+Other[6]=TerminalMat_Normal
+Other[7]=TerminalMat_OcclusionRoughnessMetallic

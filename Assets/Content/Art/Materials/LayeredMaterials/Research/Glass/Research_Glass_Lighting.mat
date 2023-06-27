@@ -1,0 +1,7 @@
+Diffuse=Research_CeilingTiles_Glass_Depth
+Normal=Research_CeilingTiles_Glass_Normal
+Emissive=Research_CeilingTiles_Glass_Emissive
+Other[0]=LightFlickersRGB
+Other[1]=Research_CeilingTiles_Glass_BaseColor
+Other[2]=Research_CeilingTiles_Glass_OcclusionRoughnessMetallic
+Other[3]=Texture_Pipeworld_Ceilings_Columns_Lights_Glass_Tri_Emissive

@@ -1,0 +1,201 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[10] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/LowResBlurredNoise.LowResBlurredNoise'
+    ReferencedTextures[3] = Texture2D'/Game/Art/Textures/Saturn/Saturn.Saturn'
+    ReferencedTextures[4] = Texture2D'/Game/Art/Textures/Saturn/Saturn_CloudMap.Saturn_CloudMap'
+    ReferencedTextures[5] = Texture2D'/Game/Art/Textures/Saturn/Saturn_CloudMap_Normal.Saturn_CloudMap_Normal'
+    ReferencedTextures[6] = Texture2D'/Game/Art/Textures/Saturn/Saturn_FlowMap.Saturn_FlowMap'
+    ReferencedTextures[7] = Texture2D'/Game/Art/Textures/Saturn/Saturn_Noise.Saturn_Noise'
+    ReferencedTextures[8] = Texture2D'/Game/Art/Textures/Saturn/Saturn_Normal.Saturn_Normal'
+    ReferencedTextures[9] = Texture2D'/Game/Blueprints/Effects/Saturn/T_SaturnRingPermeability.T_SaturnRingPermeability'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[15] =
+                {
+                    ParameterInfos[0] = { Name=Shadow_Gradient_Power }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=Cloud2_Speed }
+                    ParameterInfos[3] = { Name=Cloud_Speed }
+                    ParameterInfos[4] = { Name=Cloud_Desaturation_Fraction }
+                    ParameterInfos[5] = { Name=Albedo_Brightness }
+                    ParameterInfos[6] = { Name=Shadow_Intensity }
+                    ParameterInfos[7] = { Name=Diffuse_Power }
+                    ParameterInfos[8] = { Name=Rim_Power }
+                    ParameterInfos[9] = { Name=Atmosphere_Radius }
+                    ParameterInfos[10] = { Name=Rings_Inner_Radius_Adjusted }
+                    ParameterInfos[11] = { Name=Rim_Intensity }
+                    ParameterInfos[12] = { Name=Rings_Bounded_Distance }
+                    ParameterInfos[13] = { Name=MipBias }
+                    ParameterInfos[14] = { Name=Cloud_Intensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=ShadeColor_Min }
+                    ParameterInfos[1] = { Name=Sun_Direction }
+                    ParameterInfos[2] = { Name=Sun_Radiance }
+                    ParameterInfos[3] = { Name=ShadeColor_Max }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[15] =
+        {
+            ScalarValues[0] = 1.35
+            ScalarValues[1] = 2
+            ScalarValues[2] = 0.01
+            ScalarValues[3] = 0.02
+            ScalarValues[4] = 0.15
+            ScalarValues[5] = 4
+            ScalarValues[6] = 0.9
+            ScalarValues[7] = 3
+            ScalarValues[8] = 10
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0
+            ScalarValues[11] = 2
+            ScalarValues[12] = 0
+            ScalarValues[13] = -2
+            ScalarValues[14] = 34
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=0.588433, G=0.682498, B=0.973958, A=1 }
+            VectorValues[1] = { R=0, G=1, B=-0.5, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=0.088542, G=0.445997, B=1, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Art/Textures/Saturn/Saturn.Saturn'
+        }
+    }
+    ReferencedTextures[11] =
+    {
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/LowResBlurredNoise.LowResBlurredNoise'
+        ReferencedTextures[4] = Texture2D'/Game/Art/Textures/Saturn/Saturn_FlowMap.Saturn_FlowMap'
+        ReferencedTextures[5] = Texture2D'/Game/Art/Textures/Saturn/Saturn_Normal.Saturn_Normal'
+        ReferencedTextures[6] = Texture2D'/Game/Art/Textures/Saturn/Saturn_CloudMap.Saturn_CloudMap'
+        ReferencedTextures[7] = Texture2D'/Game/Art/Textures/Saturn/Saturn_CloudMap_Normal.Saturn_CloudMap_Normal'
+        ReferencedTextures[8] = Texture2D'/Game/Art/Textures/Saturn/Saturn.Saturn'
+        ReferencedTextures[9] = Texture2D'/Game/Blueprints/Effects/Saturn/T_SaturnRingPermeability.T_SaturnRingPermeability'
+        ReferencedTextures[10] = Texture2D'/Game/Art/Textures/Saturn/Saturn_Noise.Saturn_Noise'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Art/Textures/Saturn/Saturn.Saturn'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[15] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 1.35
+        Name = Shadow_Gradient_Power
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=2, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=0.01, Name=Cloud2_Speed, Group=None }
+    CollectedScalarParameters[3] = { Value=0.02, Name=Cloud_Speed, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0.15
+        Name = Cloud_Desaturation_Fraction
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=4, Name=Albedo_Brightness, Group=None }
+    CollectedScalarParameters[6] = { Value=0.9, Name=Shadow_Intensity, Group=None }
+    CollectedScalarParameters[7] = { Value=3, Name=Diffuse_Power, Group=None }
+    CollectedScalarParameters[8] = { Value=10, Name=Rim_Power, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Atmosphere_Radius, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0
+        Name = Rings_Inner_Radius_Adjusted
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=2, Name=Rim_Intensity, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Rings_Bounded_Distance, Group=None }
+    CollectedScalarParameters[13] = { Value=-2, Name=MipBias, Group=None }
+    CollectedScalarParameters[14] = { Value=34, Name=Cloud_Intensity, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.588433, G=0.682498, B=0.973958, A=1 }
+        Name = ShadeColor_Min
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=1, B=-0.5, A=0 }
+        Name = Sun_Direction
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Sun_Radiance
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.088542, G=0.445997, B=1, A=1 }
+        Name = ShadeColor_Max
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1.20313
+        UVChannelIndex = 0
+        TextureName = Saturn_FlowMap
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Saturn_Noise
+    }
+}

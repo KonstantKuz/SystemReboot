@@ -1,0 +1,6 @@
+Diffuse=BlendFunc_DefBase
+Normal=FloorMat_Normal
+Other[0]=BlendFunc_DefBlend
+Other[1]=water2N
+Other[2]=FloorMat_BaseColor
+Other[3]=FloorMat_OcclusionRoughnessMetallic

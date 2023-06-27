@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Art/Materials/LayeredMaterials/ShodanFight/M_ShodanWeb.M_ShodanWeb'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Art/Materials/LayeredMaterials/ShodanFight/M_ShodanWeb.M_ShodanWeb'
+        MaterialSlotName = Web
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 773.798, 888.177, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-5.06639 }
+    BoxExtent = { X=383.353, Y=383.353, Z=4.61812 }
+    SphereRadius = 384.283
+}

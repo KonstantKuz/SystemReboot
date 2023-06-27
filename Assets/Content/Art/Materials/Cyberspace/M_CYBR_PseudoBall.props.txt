@@ -1,0 +1,137 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Art/Textures/Cyberspace/CYBR_ShodanProp_Emissive.CYBR_ShodanProp_Emissive'
+    ReferencedTextures[1] = Texture2D'/Game/Art/Textures/Cyberspace/CYBR_ShodanProp_Normal.CYBR_ShodanProp_Normal'
+    ReferencedTextures[2] = Texture2D'/Game/Cyberspace/Enemies/CyberDog/Assets/DataMask.DataMask'
+    ReferencedTextures[3] = Texture2D'/Game/Cyberspace/Enemies/CyberGuard/Assets/CyberGuard_Masks.CyberGuard_Masks'
+    ReferencedTextures[4] = Texture2D'/Game/Cyberspace/Enemies/CyberGuard/Assets/CyberGuard_Normal.CyberGuard_Normal'
+    ReferencedTextures[5] = TextureCube4'/Game/Art/PreviewEnvironmentMap_Tex.PreviewEnvironmentMap_Tex'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=PatternRadiusFade }
+                    ParameterInfos[1] = { Name=WaveOffset }
+                    ParameterInfos[2] = { Name=MeshScale }
+                    ParameterInfos[3] = { Name=SphereFalloffExponent }
+                    ParameterInfos[4] = { Name=Radius }
+                    ParameterInfos[5] = { Name=FadeOut }
+                    ParameterInfos[6] = { Name=NoiseExponent }
+                    ParameterInfos[7] = { Name=NoiseStrength }
+                    ParameterInfos[8] = { Name=WaveExponent }
+                    ParameterInfos[9] = { Name=DepthOffset }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=ColourAdd }
+                    ParameterInfos[1] = { Name=SphereColor }
+                    ParameterInfos[2] = { Name=GlowColor }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 30, 0.25, 1, 0.5, 16, 0.5, 2, 20, 200, 0 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=20, G=1.51459, B=0, A=1 }
+            VectorValues[2] = { R=1, G=0.086574, B=0, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/Cyberspace/Enemies/CyberGuard/Assets/CyberGuard_Masks.CyberGuard_Masks'
+        ReferencedTextures[2] = Texture2D'/Game/Cyberspace/Enemies/CyberGuard/Assets/CyberGuard_Normal.CyberGuard_Normal'
+        ReferencedTextures[3] = TextureCube4'/Game/Art/PreviewEnvironmentMap_Tex.PreviewEnvironmentMap_Tex'
+        ReferencedTextures[4] = Texture2D'/Game/Cyberspace/Enemies/CyberDog/Assets/DataMask.DataMask'
+        ReferencedTextures[5] = Texture2D'/Game/Art/Textures/Cyberspace/CYBR_ShodanProp_Emissive.CYBR_ShodanProp_Emissive'
+        ReferencedTextures[6] = Texture2D'/Game/Art/Textures/Cyberspace/CYBR_ShodanProp_Normal.CYBR_ShodanProp_Normal'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=30, Name=PatternRadiusFade, Group=None }
+    CollectedScalarParameters[1] = { Value=0.25, Name=WaveOffset, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=MeshScale, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0.5
+        Name = SphereFalloffExponent
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=16, Name=Radius, Group=None }
+    CollectedScalarParameters[5] = { Value=0.5, Name=FadeOut, Group=None }
+    CollectedScalarParameters[6] = { Value=2, Name=NoiseExponent, Group=None }
+    CollectedScalarParameters[7] = { Value=20, Name=NoiseStrength, Group=None }
+    CollectedScalarParameters[8] = { Value=200, Name=WaveExponent, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=DepthOffset, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = ColourAdd
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=20, G=1.51459, B=0, A=1 }
+        Name = SphereColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0.086574, B=0, A=1 }
+        Name = GlowColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = CYBR_ShodanProp_Emissive
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = CYBR_ShodanProp_Normal
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = DataMask
+    }
+}

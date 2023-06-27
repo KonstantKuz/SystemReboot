@@ -1,0 +1,108 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/LowResBlurredNoise.LowResBlurredNoise'
+    ReferencedTextures[3] = Texture2D'/Game/Art/ParticleEffects/Textures/T_Grid_01.T_Grid_01'
+    ReferencedTextures[4] = Texture2D'/Game/Art/Textures/Saturn/Saturn_CloudMap.Saturn_CloudMap'
+    ReferencedTextures[5] = Texture2D'/Game/Art/Textures/Saturn/Saturn_CloudMap_Normal.Saturn_CloudMap_Normal'
+    ReferencedTextures[6] = Texture2D'/Game/Art/Textures/Saturn/Saturn_FlowMap.Saturn_FlowMap'
+    ReferencedTextures[7] = Texture2D'/Game/Art/Textures/Saturn/Saturn_Noise.Saturn_Noise'
+    ReferencedTextures[8] = TextureCube4'/Game/Art/PreviewEnvironmentMap_Tex.PreviewEnvironmentMap_Tex'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Cloud2_Speed }
+                    ParameterInfos[1] = { Name=ZFade }
+                    ParameterInfos[2] = { Name=MipBias }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Param }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 0.03, 1e+06, -2 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0.5, A=0 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[10] =
+    {
+        ReferencedTextures[0] = TextureCube4'/Game/Art/PreviewEnvironmentMap_Tex.PreviewEnvironmentMap_Tex'
+        ReferencedTextures[1] = Texture2D'/Game/Art/ParticleEffects/Textures/T_Grid_01.T_Grid_01'
+        ReferencedTextures[2] = Texture2D'/Game/Art/Textures/Saturn/Saturn_FlowMap.Saturn_FlowMap'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/DefaultNormal.DefaultNormal'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[6] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/LowResBlurredNoise.LowResBlurredNoise'
+        ReferencedTextures[7] = Texture2D'/Game/Art/Textures/Saturn/Saturn_CloudMap.Saturn_CloudMap'
+        ReferencedTextures[8] = Texture2D'/Game/Art/Textures/Saturn/Saturn_CloudMap_Normal.Saturn_CloudMap_Normal'
+        ReferencedTextures[9] = Texture2D'/Game/Art/Textures/Saturn/Saturn_Noise.Saturn_Noise'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0.03, Name=Cloud2_Speed, Group=None }
+    CollectedScalarParameters[1] = { Value=1e+06, Name=ZFade, Group=None }
+    CollectedScalarParameters[2] = { Value=-2, Name=MipBias, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0.5, A=0 }
+        Name = Param
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1.20313
+        UVChannelIndex = 0
+        TextureName = Saturn_FlowMap
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Saturn_Noise
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 10
+        UVChannelIndex = 0
+        TextureName = T_Grid_01
+    }
+}

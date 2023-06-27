@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: db7750e1837f349458f4ee5aef53be1c
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 3760672594091964417
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_Draw
+  - first:
+      74: -6927739697321779802
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_Holster
+  - first:
+      74: 410097398051456808
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_Idle
+  - first:
+      74: -8601583242815317932
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_Pickup
+  - first:
+      74: 3165219848504441295
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_PowerLeft_Attack
+  - first:
+      74: -2422307633135104907
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_PowerLeft_Loop
+  - first:
+      74: 1988164677888741230
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_PowerLeft_toIdle
+  - first:
+      74: 3493741767642608751
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_PowerLeft_toPowerRightLoop
+  - first:
+      74: -4965053069333153112
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_PowerRight_Attack
+  - first:
+      74: -808571199871058631
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_PowerRight_Loop
+  - first:
+      74: 6733153631340997337
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_PowerRight_RapidAttack_1
+  - first:
+      74: -2449489461650492660
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_PowerRight_RapidAttack_2
+  - first:
+      74: 5928488556863663025
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_PowerRight_RapidAttack_3
+  - first:
+      74: -3598931106426726009
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_PowerRight_Ready
+  - first:
+      74: 3885007615877011922
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_PowerRight_toIdle
+  - first:
+      74: 6353510769279026259
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_PowerRight_toPowerLeftLoop
+  - first:
+      74: -3753188315149580621
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_QuickAttack_Left
+  - first:
+      74: 7345898432229673021
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_QuickAttack_Right
+  - first:
+      74: 6706972670345064716
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_Sprint
+  - first:
+      74: 495149142940333670
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_Walk
+  - first:
+      74: -6048337339477168116
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_Walk.001
+  - first:
+      74: -7018517069107322081
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_Walk.002
+  - first:
+      74: -1410469562758773897
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_WallAvoid
+  - first:
+      74: 1172020360522433740
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_WallAvoid_Draw
+  - first:
+      74: -1037852340301228215
+    second: CH_Hacker_NoHead.ao|CH_Hacker_Rapier_WallAvoid_Holster
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_LaserRapier
+    second: {fileID: 2100000, guid: aae046e5676bc5b44ab5e78ab1391b7c, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

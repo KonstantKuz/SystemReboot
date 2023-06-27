@@ -1,0 +1,3 @@
+Diffuse=EXEC_WallOrnament_BaseColor
+Normal=EXEC_WallOrnament_Normal
+Other[0]=EXEC_WallOrnament_OcclusionRoughnessMetallic

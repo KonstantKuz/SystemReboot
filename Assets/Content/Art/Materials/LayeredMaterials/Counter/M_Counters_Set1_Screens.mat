@@ -1,0 +1,12 @@
+Diffuse=BlendFunc_DefBase
+Normal=Counters_Set01_Normal
+Emissive=Counters_Set01_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=Texture_Shared_ComputerScreenEffects
+Other[2]=Texture_Shared_ComputerScreenEffects_Atlas
+Other[3]=Counters_Set01_BaseColor
+Other[4]=Counters_Set01_OcclusionRoughnessMetallic
+Other[5]=Research_CeilingTiles_BaseColor
+Other[6]=Research_CeilingTiles_Emissive
+Other[7]=Research_CeilingTiles_Normal
+Other[8]=Research_CeilingTiles_OcclusionRoughnessMetallic

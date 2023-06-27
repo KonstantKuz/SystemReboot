@@ -1,0 +1,6 @@
+Diffuse=BlendFunc_DefBase
+Normal=Texture_Maintrenance_Walls_Normal
+Other[0]=BlendFunc_DefBlend
+Other[1]=Texture_Maintrenance_Greebles_Masks
+Other[2]=Texture_Maintrenance_Walls_BaseColor
+Other[3]=Texture_Maintrenance_Walls_OcclusionRoughnessMetallic

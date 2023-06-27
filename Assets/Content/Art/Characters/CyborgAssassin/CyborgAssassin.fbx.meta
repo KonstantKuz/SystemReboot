@@ -1,0 +1,2677 @@
+fileFormatVersion: 2
+guid: acd29d926c3c2ae4a9df1148c8f47928
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1540547986058080841
+    second: anim_CyborgAssassin_attack_melee_a
+  - first:
+      74: -7857071172106655769
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_melee_a
+  - first:
+      74: -3270434332717349644
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_melee_a.001
+  - first:
+      74: -3416758482343232991
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_melee_a.002
+  - first:
+      74: -3652974692376367869
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_a
+  - first:
+      74: 7267433381159496027
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_a.001
+  - first:
+      74: 480569099432690278
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_b
+  - first:
+      74: -7473098395673435242
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_b_from_idle_a
+  - first:
+      74: -5439699222785572028
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_b_idle
+  - first:
+      74: 6339775271493180603
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_b_to_idle_a
+  - first:
+      74: -7925274261652547627
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_c_idle
+  - first:
+      74: -7695688653036127173
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_c_throw
+  - first:
+      74: -3769299668605269371
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_c_windup
+  - first:
+      74: 2400704829936659316
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_death_h
+  - first:
+      74: -1533823682463116968
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_death_l
+  - first:
+      74: 6765758887406216494
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_death_p
+  - first:
+      74: -6449664451994275814
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_death_r
+  - first:
+      74: -4977956761399703030
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_hit_a
+  - first:
+      74: -7532072476111460872
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_idle_a
+  - first:
+      74: 2769668190956091782
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_idle_a_fidget_a
+  - first:
+      74: 3698617770753289600
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_b
+  - first:
+      74: 7009322956538961142
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_b_l
+  - first:
+      74: 4269515579648774308
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_b_r
+  - first:
+      74: -4131337167103512333
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_f
+  - first:
+      74: 128350504885020783
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_f_l
+  - first:
+      74: 3490481855953579243
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_f_r
+  - first:
+      74: -8242195182120482220
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_l
+  - first:
+      74: 195856396363841066
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_r
+  - first:
+      74: 6646459300542081433
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_sprint_f
+  - first:
+      74: 7496016358862998135
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_l_180
+  - first:
+      74: 126874957235318151
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_l_90
+  - first:
+      74: -1242225823471850016
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_r_0
+  - first:
+      74: -1863765186940198690
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_r_180
+  - first:
+      74: 4002575399301807539
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_r_90
+  - first:
+      74: -7672996248047052288
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_b
+  - first:
+      74: -7632866970178351918
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_b_l
+  - first:
+      74: 6743721812222055241
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_b_r
+  - first:
+      74: 2028932731031234677
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_f
+  - first:
+      74: -4898649517471238444
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_f_l
+  - first:
+      74: -4984988402107866833
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_f_r
+  - first:
+      74: -760175875499934155
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_l
+  - first:
+      74: -4556964834422449414
+    second: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_r
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CyborgAssassin
+    second: {fileID: 2100000, guid: 584484d47f20b544b9ab27792a4eb7b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CyborgAssassin_Pauldron
+    second: {fileID: 2100000, guid: 1057371cb63be2b46a0c5e54e06533b8, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'anim_CyborgAssassin_attack_melee_a' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'l_clavicle' has translation
+      animation that will be discarded.\n\t'r_clavicle' has translation animation
+      that will be discarded.\n\t'r_thumb_01' has translation animation that will
+      be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_melee_a'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'l_clavicle'
+      has translation animation that will be discarded.\n\t'r_clavicle' has translation
+      animation that will be discarded.\n\t'r_thumb_01' has translation animation
+      that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_melee_a.001'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'l_clavicle'
+      has translation animation that will be discarded.\n\t'r_clavicle' has translation
+      animation that will be discarded.\n\t'r_thumb_01' has translation animation
+      that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_melee_a.002'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'l_clavicle'
+      has translation animation that will be discarded.\n\t'r_clavicle' has translation
+      animation that will be discarded.\n\t'r_thumb_01' has translation animation
+      that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_a'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'l_clavicle'
+      has translation animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_a.001'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'l_clavicle'
+      has translation animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_b'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'chest'
+      has translation animation that will be discarded.\n\t'neck' has translation
+      animation that will be discarded.\n\t'head' has translation animation that
+      will be discarded.\n\t'l_clavicle' has translation animation that will be discarded.\n\t'r_clavicle'
+      has translation animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_b_from_idle_a'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'head'
+      has translation animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_b_to_idle_a'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'head'
+      has translation animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_c_throw'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\t'chest' has translation
+      animation that will be discarded.\n\t'r_clavicle' has translation animation
+      that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_death_h'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\t'head' has translation
+      animation that will be discarded.\n\t'r_clavicle' has translation animation
+      that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_death_l'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\t'spine_02' has translation
+      animation that will be discarded.\n\t'chest' has translation animation that
+      will be discarded.\n\t'head' has translation animation that will be discarded.\n\t'l_clavicle'
+      has translation animation that will be discarded.\n\t'r_clavicle' has translation
+      animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_death_p'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\t'neck' has translation
+      animation that will be discarded.\n\t'head' has translation animation that
+      will be discarded.\n\t'l_clavicle' has translation animation that will be discarded.\n\t'l_thumb_01'
+      has translation animation that will be discarded.\n\t'r_clavicle' has translation
+      animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_death_r'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\t'spine_02' has translation
+      animation that will be discarded.\n\t'chest' has translation animation that
+      will be discarded.\n\t'head' has translation animation that will be discarded.\n\t'l_clavicle'
+      has translation animation that will be discarded.\n\t'r_clavicle' has translation
+      animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_hit_a'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\t'r_thumb_01' has translation
+      animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_run_b'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_run_b_l'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_run_b_r'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_run_f'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_run_f_l'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_run_f_r'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_run_l'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_run_r'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_sprint_f'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\t'chest' has translation
+      animation that will be discarded.\n\t'neck' has translation animation that
+      will be discarded.\n\t'head' has translation animation that will be discarded.\n\nClip
+      'CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_l_180' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'spine_01' has translation
+      animation that will be discarded.\n\t'spine_02' has translation animation that
+      will be discarded.\n\t'chest' has translation animation that will be discarded.\n\t'neck'
+      has translation animation that will be discarded.\n\t'head' has translation
+      animation that will be discarded.\n\t'l_clavicle' has translation animation
+      that will be discarded.\n\t'r_clavicle' has translation animation that will
+      be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_l_90'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\t'chest' has translation
+      animation that will be discarded.\n\t'neck' has translation animation that
+      will be discarded.\n\t'head' has translation animation that will be discarded.\n\t'l_clavicle'
+      has translation animation that will be discarded.\n\t'r_clavicle' has translation
+      animation that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_r_180'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\t'spine_02' has translation
+      animation that will be discarded.\n\t'chest' has translation animation that
+      will be discarded.\n\t'neck' has translation animation that will be discarded.\n\t'head'
+      has translation animation that will be discarded.\n\t'l_clavicle' has translation
+      animation that will be discarded.\n\t'r_clavicle' has translation animation
+      that will be discarded.\n\nClip 'CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_r_90'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine_01'
+      has translation animation that will be discarded.\n\t'neck' has translation
+      animation that will be discarded.\n\t'head' has translation animation that
+      will be discarded.\n\t'r_clavicle' has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: anim_CyborgAssassin_attack_melee_a
+      takeName: anim_CyborgAssassin_attack_melee_a
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_melee_a
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_melee_a
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_melee_a.001
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_melee_a.001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_melee_a.002
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_melee_a.002
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_a
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_a
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_a.001
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_a.001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_b
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_b
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_b_from_idle_a
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_b_from_idle_a
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_b_idle
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_b_idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_b_to_idle_a
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_b_to_idle_a
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_c_idle
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_c_idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_c_throw
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_c_throw
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_c_windup
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_attack_ranged_c_windup
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_death_h
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_death_h
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_death_l
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_death_l
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_death_p
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_death_p
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_death_r
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_death_r
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_hit_a
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_hit_a
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_idle_a
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_idle_a
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_idle_a_fidget_a
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_idle_a_fidget_a
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 215
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_b
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_b
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_b_l
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_b_l
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_b_r
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_b_r
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_f
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_f
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_f_l
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_f_l
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_f_r
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_f_r
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_l
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_l
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_r
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_run_r
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_sprint_f
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_sprint_f
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_l_180
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_l_180
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_l_90
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_l_90
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_r_0
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_r_0
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_r_180
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_r_180
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_r_90
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_turn_r_90
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_b
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_b
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_b_l
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_b_l
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_b_r
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_b_r
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_f
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_f
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_f_l
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_f_l
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_f_r
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_f_r
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_l
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_l
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_r
+      takeName: CH_CyborgAssassin.ao|anim_CyborgAssassin_walk_r
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_hip
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_hip
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_knee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_knee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_ankle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_ankle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine_01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine_02
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_shoulder
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_shoulder
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_elbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_elbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_wrist
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_wrist
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_ball
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_ball
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_thumb_01
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_thumb_02
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_thumb_03
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_index_01
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_index_02
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_index_03
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_middle_01
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_middle_02
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_middle_03
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_ring_01
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_ring_02
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_ring_03
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_pinky_01
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_pinky_02
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_pinky_03
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_thumb_01
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_thumb_02
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_thumb_03
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_index_01
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_index_02
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_index_03
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_middle_01
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_middle_02
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_middle_03
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_ring_01
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_ring_02
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_ring_03
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_pinky_01
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_pinky_02
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_pinky_03
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chest
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: CyborgAssassin(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CH_CyborgAssassin.ao
+      parentName: CyborgAssassin(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: root
+      parentName: CH_CyborgAssassin.ao
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: hips
+      parentName: root
+      position: {x: 9.3132255e-12, y: 0.00043943588, z: 0.008473703}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_01
+      parentName: hips
+      position: {x: 0.0000923708, y: -0.000085102336, z: 0.0006362548}
+      rotation: {x: -0, y: 4.440892e-16, z: -0.000000011641532, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: spine_02
+      parentName: spine_01
+      position: {x: 0.00008195572, y: 0.000031613403, z: 0.0008461333}
+      rotation: {x: 6.7762636e-17, y: -0.0000000058207665, z: 0.000000011641532, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000004}
+    - name: chest
+      parentName: spine_02
+      position: {x: 0.00006589111, y: 0.0001655728, z: 0.0007511782}
+      rotation: {x: -0, y: 0.000000005820766, z: 3.0092655e-32, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999999}
+    - name: neck
+      parentName: chest
+      position: {x: 9.3132255e-12, y: 0.00041659686, z: 0.0016597998}
+      rotation: {x: -0, y: 0.000000002910383, z: -0.000000023283066, w: 1}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: head
+      parentName: neck
+      position: {x: 6.7520885e-11, y: -0.00015638776, z: 0.0014102178}
+      rotation: {x: -5.0292585e-17, y: -5.684342e-10, z: 0.000000021827875, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: jaw
+      parentName: head
+      position: {x: -2.165325e-10, y: -0.00042802235, z: 0.00012464589}
+      rotation: {x: -0.19184773, y: -0.68058395, z: 0.19184773, w: 0.68058395}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000004}
+    - name: jaw_end
+      parentName: jaw
+      position: {x: -0, y: 0.0005999998, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_clavicle
+      parentName: chest
+      position: {x: -0.0004411299, y: 0.00004255434, z: 0.0014414702}
+      rotation: {x: 0.0050125127, y: 0.030334676, z: 0.088085085, w: 0.9956384}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1}
+    - name: l_shoulder
+      parentName: l_clavicle
+      position: {x: -0.0011522707, y: 0.0007022406, z: -0.00017626703}
+      rotation: {x: 0.04168345, y: -0.04113062, z: -0.10300072, w: 0.99295604}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: l_elbow
+      parentName: l_shoulder
+      position: {x: -0.0024079909, y: -6.705522e-10, z: 5.0291415e-10}
+      rotation: {x: -0.06745184, y: 0.027816782, z: 0.0120170675, w: 0.99726236}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: l_forearm
+      parentName: l_elbow
+      position: {x: -0.0011093367, y: 4.749745e-10, z: 6.1001626e-10}
+      rotation: {x: -0.000000033527613, y: 0.00000012665987, z: 0.00000009778887,
+        w: 1}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000002}
+    - name: l_forearm_end
+      parentName: l_forearm
+      position: {x: -0, y: 0.00059999985, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_wrist
+      parentName: l_elbow
+      position: {x: -0.002218673, y: -7.8231094e-10, z: 0.0000000017974525}
+      rotation: {x: -0.01082797, y: -0.065352574, z: 0.042138156, w: 0.9969133}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+    - name: l_thumb_01
+      parentName: l_wrist
+      position: {x: -0.00012949076, y: -0.00033998943, z: -0.00010482709}
+      rotation: {x: 0.593167, y: 0.2510979, z: 0.21661459, w: 0.73360825}
+      scale: {x: 0.9999999, y: 0.99999976, z: 1}
+    - name: l_thumb_02
+      parentName: l_thumb_01
+      position: {x: -0.0002733151, y: -0.000034465247, z: 0.00003839925}
+      rotation: {x: -0.047467895, y: 0.057734527, z: 0.13046786, w: 0.9886313}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: l_thumb_03
+      parentName: l_thumb_02
+      position: {x: -0.00038708939, y: 0.0000454526, z: -0.000019807741}
+      rotation: {x: 0.05734672, y: -0.1028726, z: 0.65905154, w: 0.74281883}
+      scale: {x: 1.0000002, y: 0.99999964, z: 1.0000002}
+    - name: l_thumb_03_end
+      parentName: l_thumb_03
+      position: {x: -0, y: 0.0005999996, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_index_01
+      parentName: l_wrist
+      position: {x: -0.00079349265, y: -0.00035375243, z: 0.0001191593}
+      rotation: {x: 0.036593962, y: 0.07321492, z: 0.0698822, w: 0.9941916}
+      scale: {x: 0.9999999, y: 1, z: 0.9999998}
+    - name: l_index_02
+      parentName: l_index_01
+      position: {x: -0.00035056792, y: -0.00000069562344, z: -0.000047943722}
+      rotation: {x: -0.03028726, y: -0.10824985, z: -0.019645587, w: 0.993468}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: l_index_03
+      parentName: l_index_02
+      position: {x: -0.00024377953, y: -0.0000005310494, z: 0.0000018410384}
+      rotation: {x: -0.022851115, y: 0.028408356, z: 0.7048079, w: 0.7084608}
+      scale: {x: 1.0000004, y: 1.0000004, z: 0.99999994}
+    - name: l_index_03_end
+      parentName: l_index_03
+      position: {x: -0, y: 0.00060000014, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_middle_01
+      parentName: l_wrist
+      position: {x: -0.0008541168, y: -0.00010272764, z: 0.00014073416}
+      rotation: {x: 0.08276674, y: -0.07518617, z: -0.053379964, w: -0.99229395}
+      scale: {x: 0.9999999, y: 1.0000005, z: 1.0000001}
+    - name: l_middle_02
+      parentName: l_middle_01
+      position: {x: -0.00032200498, y: 0.000012592254, z: -0.000046794412}
+      rotation: {x: -0.007540887, y: -0.119704545, z: -0.018766476, w: 0.9926036}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: l_middle_03
+      parentName: l_middle_02
+      position: {x: -0.00027150166, y: -0.0000011331215, z: 0.0000038016774}
+      rotation: {x: -0.0054368237, y: -0.004755293, z: -0.70640516, w: -0.7077709}
+      scale: {x: 0.99999976, y: 1.0000005, z: 1.0000002}
+    - name: l_middle_03_end
+      parentName: l_middle_03
+      position: {x: -0, y: 0.0006000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_ring_01
+      parentName: l_wrist
+      position: {x: -0.0008339904, y: 0.00014528296, z: 0.00010189131}
+      rotation: {x: 0.12827337, y: -0.003992255, z: -0.033742126, w: -0.99115664}
+      scale: {x: 0.9999996, y: 0.9999999, z: 0.99999994}
+    - name: l_ring_02
+      parentName: l_ring_01
+      position: {x: -0.0003010194, y: 6.0535965e-10, z: 3.72529e-10}
+      rotation: {x: -0.062812224, y: -0.021349031, z: -0.0010777239, w: 0.9977965}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: l_ring_03
+      parentName: l_ring_02
+      position: {x: -0.00021869883, y: 0.0000011173845, z: -0.00000860597}
+      rotation: {x: 0.014274615, y: -0.04167388, z: 0.7025003, w: 0.7103189}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1.0000004}
+    - name: l_ring_03_end
+      parentName: l_ring_03
+      position: {x: -0, y: 0.0006000001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_pinky_01
+      parentName: l_wrist
+      position: {x: -0.00075755065, y: 0.00033327448, z: -0.0000312002}
+      rotation: {x: 0.16229217, y: -0.020355327, z: -0.01814384, w: -0.9863659}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999976}
+    - name: l_pinky_02
+      parentName: l_pinky_01
+      position: {x: -0.00023218617, y: 2.4214386e-10, z: 0}
+      rotation: {x: -0.031208651, y: -0.03142164, z: -0.013365698, w: 0.99892944}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000002}
+    - name: l_pinky_03
+      parentName: l_pinky_02
+      position: {x: -0.00021802669, y: 9.592622e-10, z: -1.11758706e-10}
+      rotation: {x: -0.004047014, y: 0.0034663158, z: 0.7021664, w: 0.711993}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000005}
+    - name: l_pinky_03_end
+      parentName: l_pinky_03
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_shoulder_twist
+      parentName: l_shoulder
+      position: {x: -0.00029752243, y: -2.9802322e-10, z: -1.11758706e-10}
+      rotation: {x: 0.00000004563481, y: 0.0000001192093, z: 0.000000019324945, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: l_shoulder_twist_end
+      parentName: l_shoulder_twist
+      position: {x: -0, y: 0.0005999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_shoulderPad
+      parentName: l_clavicle
+      position: {x: -0.0015663409, y: 0.00048471362, z: 0.0005562248}
+      rotation: {x: 0.000000097218354, y: -0.3354965, z: 0.0000000070324493, w: 0.9420415}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999999}
+    - name: l_shoulderPad_end
+      parentName: l_shoulderPad
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_clavicle
+      parentName: chest
+      position: {x: 0.0003180596, y: -0.0003124774, z: 0.0015060524}
+      rotation: {x: 0.9890058, y: -0.14552516, z: 0.025390632, w: 0.006724447}
+      scale: {x: 0.99999976, y: 1, z: 1}
+    - name: r_shoulder
+      parentName: r_clavicle
+      position: {x: 0.0011522557, y: -0.0007023902, z: 0.00017579488}
+      rotation: {x: 0.041572135, y: -0.070157774, z: -0.09530842, w: 0.9921018}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: r_elbow
+      parentName: r_shoulder
+      position: {x: 0.0024079785, y: -0.0000004085712, z: 0.0000010830909}
+      rotation: {x: -0.06745808, y: 0.02810257, z: 0.010371012, w: 0.9972723}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1}
+    - name: r_forearm
+      parentName: r_elbow
+      position: {x: 0.0011093378, y: -0.00000019330298, z: 0.00000081123784}
+      rotation: {x: 0.00000008940697, y: 0.00000008195639, z: -0.000000013969839,
+        w: 1}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000001}
+    - name: r_forearm_end
+      parentName: r_forearm
+      position: {x: -0, y: 0.00059999985, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_wrist
+      parentName: r_elbow
+      position: {x: 0.002218674, y: -0.00000038545113, z: 0.0000016228854}
+      rotation: {x: -0.010827806, y: -0.06535296, z: 0.04213816, w: 0.9969133}
+      scale: {x: 1.0000004, y: 1.0000005, z: 0.99999994}
+    - name: r_thumb_01
+      parentName: r_wrist
+      position: {x: 0.00022853918, y: 0.00031739453, z: 0.00013493998}
+      rotation: {x: 0.5945544, y: 0.24826741, z: 0.21776353, w: 0.73310804}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: r_thumb_02
+      parentName: r_thumb_01
+      position: {x: 0.00027332274, y: 0.00003492616, z: -0.000037961527}
+      rotation: {x: -0.047578786, y: 0.057262067, z: 0.13046755, w: 0.9886534}
+      scale: {x: 1.0000005, y: 1.0000001, z: 0.99999994}
+    - name: r_thumb_03
+      parentName: r_thumb_02
+      position: {x: 0.00038712166, y: -0.000044812114, z: 0.000020126849}
+      rotation: {x: -0.036500107, y: -0.067687675, z: -0.7426367, w: 0.6652646}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: r_thumb_03_end
+      parentName: r_thumb_03
+      position: {x: -0, y: 0.00060000014, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_index_01
+      parentName: r_wrist
+      position: {x: 0.000794315, y: 0.00035232038, z: -0.000117914984}
+      rotation: {x: 0.03677127, y: 0.073198475, z: 0.06990834, w: 0.99418443}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000005}
+    - name: r_index_02
+      parentName: r_index_01
+      position: {x: 0.0003504938, y: 0.000000070035455, z: 0.000048448703}
+      rotation: {x: -0.030262856, y: -0.10836036, z: -0.019827139, w: 0.9934532}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000013}
+    - name: r_index_03
+      parentName: r_index_02
+      position: {x: 0.00024377182, y: 0.0000002849102, z: -0.0000015065074}
+      rotation: {x: 0.034824558, y: 0.039494235, z: -0.70236665, w: 0.7098652}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.9999996}
+    - name: r_index_03_end
+      parentName: r_index_03
+      position: {x: -0, y: 0.00059999974, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_middle_01
+      parentName: r_wrist
+      position: {x: 0.0008544814, y: 0.000101208425, z: -0.00013958183}
+      rotation: {x: -0.082635045, y: 0.07517302, z: 0.05337406, w: 0.9923063}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000007}
+    - name: r_middle_02
+      parentName: r_middle_01
+      position: {x: 0.0003219364, y: -0.0000132273135, z: 0.000047117097}
+      rotation: {x: -0.0075202296, y: -0.11966953, z: -0.018869016, w: 0.992606}
+      scale: {x: 0.99999976, y: 1, z: 0.9999998}
+    - name: r_middle_03
+      parentName: r_middle_02
+      position: {x: 0.00027150547, y: 0.00000089667736, z: -0.0000035382807}
+      rotation: {x: 0.04271786, y: 0.052066118, z: -0.70063215, w: 0.7103372}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: r_middle_03_end
+      parentName: r_middle_03
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_ring_01
+      parentName: r_wrist
+      position: {x: 0.0008338256, y: -0.00014677443, z: -0.00010094614}
+      rotation: {x: -0.12841606, y: 0.0035509355, z: 0.032336887, w: 0.9911867}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000006}
+    - name: r_ring_02
+      parentName: r_ring_01
+      position: {x: 0.00030104202, y: 0.0000005926564, z: 0.00000037401915}
+      rotation: {x: -0.06282317, y: -0.021359675, z: -0.0010112432, w: 0.9977956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_ring_03
+      parentName: r_ring_02
+      position: {x: 0.00021868582, y: -0.00000091964375, z: 0.000008902177}
+      rotation: {x: 0.08514043, y: 0.055944256, z: -0.6999436, w: 0.7068948}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: r_ring_03_end
+      parentName: r_ring_03
+      position: {x: -0, y: 0.0006000001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_pinky_01
+      parentName: r_wrist
+      position: {x: 0.00075687794, y: -0.00033471233, z: 0.00003197294}
+      rotation: {x: -0.16220358, y: 0.020389559, z: 0.018069359, w: 0.9863812}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: r_pinky_02
+      parentName: r_pinky_01
+      position: {x: 0.00023218698, y: -0.0000004540244, z: 0.00000019550323}
+      rotation: {x: -0.031206664, y: -0.031419273, z: -0.013366684, w: 0.9989296}
+      scale: {x: 1.0000006, y: 1, z: 1.0000004}
+    - name: r_pinky_03
+      parentName: r_pinky_02
+      position: {x: 0.00021802909, y: -0.00000029604882, z: 0.00000015104189}
+      rotation: {x: -0.04107259, y: -0.041493524, z: -0.70516884, w: 0.70663166}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: r_pinky_03_end
+      parentName: r_pinky_03
+      position: {x: -0, y: 0.00059999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_shoulder_twist
+      parentName: r_shoulder
+      position: {x: 0.0002975003, y: -0.000000050729138, z: 0.00000013776123}
+      rotation: {x: -0.00000009872019, y: 0.000002413988, z: -0.000000052386895, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.99999994}
+    - name: r_shoulder_twist_end
+      parentName: r_shoulder_twist
+      position: {x: -0, y: 0.00059999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_shoulderPad
+      parentName: r_clavicle
+      position: {x: 0.0015669349, y: -0.00048419886, z: -0.0005566882}
+      rotation: {x: -2.0756503e-16, y: -0.33549637, z: -0.000000014901159, w: 0.9420415}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: r_shoulderPad_end
+      parentName: r_shoulderPad
+      position: {x: -0, y: 0.0005999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wires_01
+      parentName: chest
+      position: {x: -0.00019297517, y: -0.0015440517, z: 0.0010566236}
+      rotation: {x: -0, y: -1.7763568e-15, z: 0.000000046566136, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000002}
+    - name: wires_01_end
+      parentName: wires_01
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wires_02
+      parentName: chest
+      position: {x: 0.00016351283, y: -0.0017093093, z: 0.00024455212}
+      rotation: {x: -0, y: -0.000000017462295, z: -0.000000023283064, w: 1}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1.0000002}
+    - name: wires_02_end
+      parentName: wires_02
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wires_03
+      parentName: chest
+      position: {x: -0.00054157566, y: -0.0016371118, z: -0.00021980425}
+      rotation: {x: -0, y: -8.881784e-16, z: -0.000000023283064, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: wires_03_end
+      parentName: wires_03
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wires_neck_01
+      parentName: chest
+      position: {x: -0.00033635407, y: 0.0027260839, z: 0.0036544907}
+      rotation: {x: -0, y: -0.0000000042746255, z: -0.000000002910383, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+    - name: wires_neck_01_end
+      parentName: wires_neck_01
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wires_neck_02
+      parentName: chest
+      position: {x: -0.0012207119, y: 0.0016887337, z: 0.0029593797}
+      rotation: {x: -0, y: -5.2295945e-10, z: -0.000000005820766, w: 1}
+      scale: {x: 0.9999997, y: 1.0000004, z: 1.0000002}
+    - name: wires_neck_02_end
+      parentName: wires_neck_02
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wires_neck_03
+      parentName: chest
+      position: {x: -0.0012144768, y: 0.00008777017, z: 0.0023991764}
+      rotation: {x: 2.646978e-23, y: 0.000000005820765, z: 0.00000002328306, w: 1}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1.0000001}
+    - name: wires_neck_03_end
+      parentName: wires_neck_03
+      position: {x: -0, y: 0.00059999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wires_neck_04
+      parentName: chest
+      position: {x: -0.00068298046, y: -0.0009597666, z: 0.0019953214}
+      rotation: {x: -2.2958876e-33, y: -0.000000005820766, z: 3.9443045e-25, w: 1}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999999}
+    - name: wires_neck_04_end
+      parentName: wires_neck_04
+      position: {x: -0, y: 0.00059999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: beltPouch_02
+      parentName: spine_01
+      position: {x: 0.0009071557, y: 0.0008820138, z: 0.00047172394}
+      rotation: {x: 1.8190878e-16, y: -0.0000000074505815, z: -0.21430963, w: 0.9767658}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: beltPouch_02_end
+      parentName: beltPouch_02
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: beltPouch_03
+      parentName: spine_01
+      position: {x: 0.00021088704, y: 0.001137311, z: 0.0004999304}
+      rotation: {x: 3.3881318e-17, y: -0.0000000029103835, z: 0.000000011641532, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1.0000002}
+    - name: beltPouch_03_end
+      parentName: beltPouch_03
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: beltPouch_04
+      parentName: spine_01
+      position: {x: -0.00059367355, y: 0.0010805755, z: 0.00043496257}
+      rotation: {x: 9.592013e-18, y: -0.000000007450581, z: 0.17371322, w: 0.9847963}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: beltPouch_04_end
+      parentName: beltPouch_04
+      position: {x: -0, y: 0.0005999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: beltPouch_01
+      parentName: spine_01
+      position: {x: 0.0013521914, y: -0.000049341772, z: 0.00042612827}
+      rotation: {x: 1.8745686e-17, y: -0.000000029802322, z: 0.73903847, w: 0.67366326}
+      scale: {x: 0.9999999, y: 1, z: 1.0000002}
+    - name: beltPouch_01_end
+      parentName: beltPouch_01
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: beltGrenade_01
+      parentName: spine_01
+      position: {x: -0.001511517, y: -0.00034462023, z: 0.00040598685}
+      rotation: {x: -2.142734e-17, y: -0.000000029802322, z: 0.8295001, w: -0.5585066}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: beltGrenade_01_end
+      parentName: beltGrenade_01
+      position: {x: -0, y: 0.0005999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: beltGrenade_02
+      parentName: spine_01
+      position: {x: -0.001606994, y: 0.00016451943, z: 0.00042301443}
+      rotation: {x: -0.000000029802322, y: -0.000000029802322, z: 0.74758786, w: -0.664163}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: beltGrenade_02_end
+      parentName: beltGrenade_02
+      position: {x: -0, y: 0.0005999998, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: beltGrenade_03
+      parentName: spine_01
+      position: {x: -0.0014791335, y: 0.0007178227, z: 0.00044829393}
+      rotation: {x: 2.7307162e-16, y: -3.502101e-16, z: -0.6149026, w: 0.78860307}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: beltGrenade_03_end
+      parentName: beltGrenade_03
+      position: {x: -0, y: 0.00059999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_legPouch
+      parentName: hips
+      position: {x: -0.0017031165, y: 0.000093535906, z: -0.0005736612}
+      rotation: {x: 0.00000032782557, y: -0.67595464, z: -0.00000044703486, w: 0.7369433}
+      scale: {x: 0.9999999, y: 1, z: 0.99999976}
+    - name: l_legPouch_end
+      parentName: l_legPouch
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_legPouch
+      parentName: hips
+      position: {x: 0.0016760258, y: 0.00029087006, z: -0.0004356042}
+      rotation: {x: 0.73694384, y: -0.0000003874302, z: -0.675954, w: -0.0000006854534}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: r_legPouch_end
+      parentName: r_legPouch
+      position: {x: -0, y: 0.0005999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_crotchPad
+      parentName: hips
+      position: {x: 0.000013826731, y: -0.0011804362, z: -0.000022255563}
+      rotation: {x: -0, y: 3.6379788e-10, z: 1.3877788e-17, w: 1}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000002}
+    - name: f_crotchPad_end
+      parentName: f_crotchPad
+      position: {x: -0, y: 0.00059999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: b_crotchPad
+      parentName: hips
+      position: {x: 0.000004088059, y: 0.0011023708, z: 0.000022672159}
+      rotation: {x: -0, y: -3.63797e-10, z: 0.000000023283064, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: b_crotchPad_end
+      parentName: b_crotchPad
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hip
+      parentName: hips
+      position: {x: -0.00082645926, y: 0.00020608607, z: -0.0006952552}
+      rotation: {x: 0.015207052, y: -0.7069433, z: -0.015206963, w: 0.7069433}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
+    - name: l_knee
+      parentName: l_hip
+      position: {x: -0.0035329042, y: 3.7252902e-11, z: -2.188608e-10}
+      rotation: {x: -0, y: -0, z: -0.017712563, w: 0.9998431}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000004}
+    - name: l_knee_twist
+      parentName: l_knee
+      position: {x: -0.0018160421, y: 4.842877e-10, z: 9.3132255e-12}
+      rotation: {x: -0.00000010270812, y: -0.000000091240494, z: 0.00000019371507,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: l_knee_twist_end
+      parentName: l_knee_twist
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_ankle
+      parentName: l_knee
+      position: {x: -0.003274526, y: -0.000030390582, z: 8.381903e-11}
+      rotation: {x: -0.0000000664281, y: 0.0000005949632, z: 0.039210647, w: 0.999231}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999999}
+    - name: l_ball
+      parentName: l_ankle
+      position: {x: -0.00075541413, y: -0.0011170937, z: 8.972506e-11}
+      rotation: {x: -0.00000002048425, y: 4.4059334e-10, z: -0.00000018626447, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: l_ball_end
+      parentName: l_ball
+      position: {x: -0, y: 0.00059999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_kneePad
+      parentName: l_knee
+      position: {x: 0.0003305468, y: -0.0006224849, z: -0.000057200097}
+      rotation: {x: -0.0000005297086, y: -0.0000009632079, z: -0.05388722, w: 0.9985471}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000001}
+    - name: l_kneePad_end
+      parentName: l_kneePad
+      position: {x: -0, y: 0.00059999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hip_twist
+      parentName: l_hip
+      position: {x: -0.0002709571, y: -1.4901161e-10, z: -5.5879353e-11}
+      rotation: {x: -0.00000016763805, y: -0, z: 9.3132246e-10, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: l_hip_twist_end
+      parentName: l_hip_twist
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hip
+      parentName: hips
+      position: {x: 0.0008264592, y: 0.00020608603, z: -0.000695254}
+      rotation: {x: 0.7069429, y: 0.015206009, z: -0.70694363, w: -0.015207052}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000005}
+    - name: r_knee
+      parentName: r_hip
+      position: {x: 0.003532907, y: 2.9802322e-10, z: -9.685754e-10}
+      rotation: {x: -0.000000031664968, y: 0.00000013550743, z: -0.017712919, w: 0.9998431}
+      scale: {x: 0.9999999, y: 0.99999964, z: 1}
+    - name: r_knee_twist
+      parentName: r_knee
+      position: {x: 0.0018160441, y: 4.0978193e-10, z: -5.2154064e-10}
+      rotation: {x: 0.0000003197274, y: 0.00000046001708, z: 0.00000008568169, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000002}
+    - name: r_knee_twist_end
+      parentName: r_knee_twist
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_ankle
+      parentName: r_knee
+      position: {x: 0.0032745271, y: 0.000030391617, z: -9.220093e-10}
+      rotation: {x: 0.000000020003595, y: 0.0000008934434, z: 0.03921073, w: 0.999231}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000001}
+    - name: r_ball
+      parentName: r_ankle
+      position: {x: 0.0007554117, y: 0.0011170927, z: -4.1771614e-10}
+      rotation: {x: 5.1883475e-10, y: -0.000000089438856, z: -0.00000004097821, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: r_ball_end
+      parentName: r_ball
+      position: {x: -0, y: 0.0005999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_kneePad
+      parentName: r_knee
+      position: {x: -0.0003019995, y: 0.00064886507, z: 0.000057200974}
+      rotation: {x: 0.00000057958556, y: 0.00000020932862, z: 0.053886913, w: -0.9985471}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: r_kneePad_end
+      parentName: r_kneePad
+      position: {x: -0, y: 0.00059999974, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hip_twist
+      parentName: r_hip
+      position: {x: 0.0002709617, y: -3.259629e-10, z: 4.1909514e-11}
+      rotation: {x: -0.000000011175871, y: 0.0000005364418, z: -0.00000008568168,
+        w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: r_hip_twist_end
+      parentName: r_hip_twist
+      position: {x: -0, y: 0.0006000001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rifle
+      parentName: root
+      position: {x: -0.0016611639, y: -0.0020620187, z: 0.011318395}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: rifle_end
+      parentName: rifle
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_prop
+      parentName: root
+      position: {x: 0.00002918601, y: -0.0030036666, z: 0.010187925}
+      rotation: {x: -0, y: 0.000000005820768, z: -0.00000002328307, w: 1}
+      scale: {x: 0.9999997, y: 1, z: 1.0000001}
+    - name: r_prop_end
+      parentName: r_prop
+      position: {x: -0, y: 0.0006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CH_CyborgAssassin.mo
+      parentName: CyborgAssassin(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

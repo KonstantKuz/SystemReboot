@@ -1,0 +1,3 @@
+Diffuse=FLIGHT_LightSocket_BaseColor
+Normal=FLIGHT_LightSocket_Normal
+Other[0]=FLIGHT_LightSocket_OcclusionRoughnessMetallic

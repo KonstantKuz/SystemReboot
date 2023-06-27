@@ -1,0 +1,6 @@
+Normal=CYBR_ShodanProp_Normal
+Emissive=CYBR_ShodanProp_Emissive
+Other[0]=DataMask
+Other[1]=CyberGuard_Masks
+Other[2]=CyberGuard_Normal
+Other[3]=PreviewEnvironmentMap_Tex

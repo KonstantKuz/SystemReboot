@@ -1,0 +1,87 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Art/Props/Gore/GoreFXTextures/BloodSplatter_H.BloodSplatter_H'
+    ReferencedTextures[1] = Texture2D'/Game/Art/Props/Gore/GoreFXTextures/BloodSplatter_N.BloodSplatter_N'
+    ReferencedTextures[2] = Texture2D'/Game/Art/Props/Gore/GoreFXTextures/BloodSplatter_N2.BloodSplatter_N2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Lerp Flatness Exponent }
+                    ParameterInfos[1] = { Name=Flatness Mult }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Blood01 }
+                    ParameterInfos[1] = { Name=Blood2 }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[2] = { 50, -10 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.15, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0.075, G=0, B=0, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Art/Props/Gore/GoreFXTextures/BloodSplatter_N2.BloodSplatter_N2'
+        ReferencedTextures[1] = Texture2D'/Game/Art/Props/Gore/GoreFXTextures/BloodSplatter_H.BloodSplatter_H'
+        ReferencedTextures[2] = Texture2D'/Game/Art/Props/Gore/GoreFXTextures/BloodSplatter_N.BloodSplatter_N'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.4
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 50
+        Name = Lerp Flatness Exponent
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=-10, Name=Flatness Mult, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.15, G=0, B=0, A=1 }
+        Name = Blood01
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.075, G=0, B=0, A=1 }
+        Name = Blood2
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

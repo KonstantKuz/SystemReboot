@@ -1,0 +1,6 @@
+Normal=CYBR_ShodanProp_Normal
+Emissive=CYBR_ShodanProp_Emissive
+Other[0]=T_CYBER_Tile_Emissive
+Other[1]=T_CYBER_Tile_Normal
+Other[2]=DataMask
+Other[3]=PreviewEnvironmentMap_Tex

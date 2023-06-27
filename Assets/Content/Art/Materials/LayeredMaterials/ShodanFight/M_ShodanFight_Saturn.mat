@@ -1,0 +1,9 @@
+Diffuse=DefaultDiffuse
+Normal=DefaultNormal
+Other[0]=LowResBlurredNoise
+Other[1]=T_Grid_01
+Other[2]=Saturn_CloudMap
+Other[3]=Saturn_CloudMap_Normal
+Other[4]=Saturn_FlowMap
+Other[5]=Saturn_Noise
+Other[6]=PreviewEnvironmentMap_Tex

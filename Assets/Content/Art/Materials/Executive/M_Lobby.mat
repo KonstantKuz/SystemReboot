@@ -1,0 +1,7 @@
+Diffuse=BlendFunc_DefBase
+Normal=EXEC_Lobby_Normal
+Emissive=EXEC_Lobby_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=LightFlickers
+Other[2]=EXEC_Lobby_BaseColor
+Other[3]=EXEC_Lobby_OcclusionRoughnessMetallic

@@ -1,0 +1,7 @@
+Diffuse=Texture_Maintenance_Dirt_Masks
+Normal=Texture_Maintrenance_Floor_Normal
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=Texture_Maintenance_Floor_BaseColor
+Other[3]=Texture_Maintrenance_Floor_OcclusionRoughnessMetallic
+Other[4]=Texture_Maintrenance_Greebles_Masks

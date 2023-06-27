@@ -1,0 +1,148 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Game/Art/SharedTextures/Texture_Shared_ComputerScreenEffects.Texture_Shared_ComputerScreenEffects'
+    ReferencedTextures[3] = Texture2D'/Game/Art/SharedTextures/Texture_Shared_ComputerScreenEffects_Atlas.Texture_Shared_ComputerScreenEffects_Atlas'
+    ReferencedTextures[4] = Texture2D'/Game/Art/Textures/Research/Corridors/Research_Corridors_Tiles3_4_BaseColor.Research_Corridors_Tiles3_4_BaseColor'
+    ReferencedTextures[5] = Texture2D'/Game/Art/Textures/Research/Corridors/Research_Corridors_Tiles3_4_Emissive.Research_Corridors_Tiles3_4_Emissive'
+    ReferencedTextures[6] = Texture2D'/Game/Art/Textures/Research/Corridors/Research_Corridors_Tiles3_4_Normal.Research_Corridors_Tiles3_4_Normal'
+    ReferencedTextures[7] = Texture2D'/Game/Art/Textures/Research/Corridors/Research_Corridors_Tiles3_4_OcclusionRoughnessMetallic.Research_Corridors_Tiles3_4_OcclusionRoughnessMetallic'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveOverride }
+                    ParameterInfos[1] = { Name=EmissiveStrength }
+                    ParameterInfos[2] = { Name=Param }
+                    ParameterInfos[3] = { Name=FlashingSpeed }
+                    ParameterInfos[4] = { Name=FlashingPhase }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Light Two }
+                    ParameterInfos[1] = { Name=Default Color }
+                    ParameterInfos[2] = { Name=Light Three }
+                    ParameterInfos[3] = { Name=Color }
+                    ParameterInfos[4] = { Name=Light One }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 0, 0, 0, 0.1, 0 }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0.23074, G=0.62396, B=1, A=1 }
+            VectorValues[1] = { R=1, G=0.1, B=0.1, A=1 }
+            VectorValues[2] = { R=0, G=0.154188, B=1, A=1 }
+            VectorValues[3] = { R=1, G=1, B=1, A=0 }
+            VectorValues[4] = { R=1, G=0.1, B=0.1, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Art/SharedTextures/Texture_Shared_ComputerScreenEffects.Texture_Shared_ComputerScreenEffects'
+        ReferencedTextures[1] = Texture2D'/Game/Art/SharedTextures/Texture_Shared_ComputerScreenEffects_Atlas.Texture_Shared_ComputerScreenEffects_Atlas'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[4] = Texture2D'/Game/Art/Textures/Research/Corridors/Research_Corridors_Tiles3_4_BaseColor.Research_Corridors_Tiles3_4_BaseColor'
+        ReferencedTextures[5] = Texture2D'/Game/Art/Textures/Research/Corridors/Research_Corridors_Tiles3_4_Normal.Research_Corridors_Tiles3_4_Normal'
+        ReferencedTextures[6] = Texture2D'/Game/Art/Textures/Research/Corridors/Research_Corridors_Tiles3_4_OcclusionRoughnessMetallic.Research_Corridors_Tiles3_4_OcclusionRoughnessMetallic'
+        ReferencedTextures[7] = Texture2D'/Game/Art/Textures/Research/Corridors/Research_Corridors_Tiles3_4_Emissive.Research_Corridors_Tiles3_4_Emissive'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=EmissiveOverride, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=EmissiveStrength, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Param, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1, Name=FlashingSpeed, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=FlashingPhase, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.23074, G=0.62396, B=1, A=1 }
+        Name = Light Two
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.1, B=0.1, A=1 }
+        Name = Default Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0.154188, B=1, A=1 }
+        Name = Light Three
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=0.1, B=0.1, A=1 }
+        Name = Light One
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Research_Corridors_Tiles3_4_BaseColor
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Research_Corridors_Tiles3_4_Normal
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Research_Corridors_Tiles3_4_OcclusionRoughnessMetallic
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = Texture_Shared_ComputerScreenEffects_Atlas
+    }
+}

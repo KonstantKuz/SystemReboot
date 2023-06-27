@@ -1,0 +1,10 @@
+Diffuse=BlendFunc_DefBase
+Normal=Reactor_CorridorTiles_11_20_31_Normal
+Emissive=Reactor_CorridorTiles_11_20_31_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=LightFlickers
+Other[2]=Texture_Shared_ComputerScreenEffects
+Other[3]=Texture_Shared_ComputerScreenEffects_Atlas
+Other[4]=Reactor_CorridorTiles_11_20_31_BaseColor
+Other[5]=Reactor_CorridorTiles_11_20_31_OcclusionRoughnessMetallic
+Other[6]=Texture_Pipeworld_Lights_Pipes_Walls_Emissive

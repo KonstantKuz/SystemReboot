@@ -1,0 +1,5 @@
+Diffuse=BlendFunc_DefBase
+Normal=Research_Corridors_Tiles_Vents_Normal
+Other[0]=BlendFunc_DefBlend
+Other[1]=Research_Corridors_Tiles_Vents_BaseColor
+Other[2]=Research_Corridors_Tiles_Vents_OcclusionRoughnessMetallic

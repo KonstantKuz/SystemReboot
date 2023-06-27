@@ -1,0 +1,5 @@
+Diffuse=BlendFunc_DefBase
+Normal=StructuralMat_Normal
+Other[0]=BlendFunc_DefBlend
+Other[1]=StructuralMat_BaseColor
+Other[2]=StructuralMat_OcclusionRoughnessMetallic

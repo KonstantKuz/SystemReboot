@@ -1,0 +1,5 @@
+Normal=T_CYBER_Tile_Normal
+Emissive=T_CYBER_Tile_Emissive
+Other[0]=T_CYBR_Trench_Emissive
+Other[1]=T_CYBR_Trench_Normal
+Other[2]=PreviewEnvironmentMap_Tex

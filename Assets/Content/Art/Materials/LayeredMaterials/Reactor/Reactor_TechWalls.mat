@@ -1,0 +1,7 @@
+Diffuse=BlendFunc_DefBase
+Normal=DefaultMaterial_Normal
+Other[0]=BlendFunc_DefBlend
+Other[1]=Texture_Shared_ComputerScreenEffects
+Other[2]=Texture_Shared_ComputerScreenEffects_Atlas
+Other[3]=DefaultMaterial_BaseColor
+Other[4]=DefaultMaterial_OcclusionRoughnessMetallic

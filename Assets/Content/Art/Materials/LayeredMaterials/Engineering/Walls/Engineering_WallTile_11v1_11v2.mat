@@ -1,0 +1,8 @@
+Diffuse=BlendFunc_DefBase
+Normal=Engineering_WallTile_11v1_11v2_Normal
+Emissive=Engineering_WallTile_11v1_11v2_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=Texture_Shared_ComputerScreenEffects
+Other[2]=Texture_Shared_ComputerScreenEffects_Atlas
+Other[3]=Engineering_WallTile_11v1_11v2_BaseColor
+Other[4]=Engineering_WallTile_11v1_11v2_OcclusionRoughnessMetallic

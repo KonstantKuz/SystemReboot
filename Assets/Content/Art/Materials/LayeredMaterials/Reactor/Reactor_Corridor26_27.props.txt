@@ -1,0 +1,148 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[10] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Game/Art/Materials/Masters/LightFlickers.LightFlickers'
+    ReferencedTextures[3] = Texture2D'/Game/Art/SharedTextures/Texture_Shared_ComputerScreenEffects.Texture_Shared_ComputerScreenEffects'
+    ReferencedTextures[4] = Texture2D'/Game/Art/SharedTextures/Texture_Shared_ComputerScreenEffects_Atlas.Texture_Shared_ComputerScreenEffects_Atlas'
+    ReferencedTextures[5] = Texture2D'/Game/Art/Textures/Reactor/Corridor/Reactor_CorridorTiles_26_27_BaseColor.Reactor_CorridorTiles_26_27_BaseColor'
+    ReferencedTextures[6] = Texture2D'/Game/Art/Textures/Reactor/Corridor/Reactor_CorridorTiles_26_27_Emissive.Reactor_CorridorTiles_26_27_Emissive'
+    ReferencedTextures[7] = Texture2D'/Game/Art/Textures/Reactor/Corridor/Reactor_CorridorTiles_26_27_Normal.Reactor_CorridorTiles_26_27_Normal'
+    ReferencedTextures[8] = Texture2D'/Game/Art/Textures/Reactor/Corridor/Reactor_CorridorTiles_26_27_OcclusionRoughnessMetallic.Reactor_CorridorTiles_26_27_OcclusionRoughnessMetallic'
+    ReferencedTextures[9] = Texture2D'/Game/Art/Tiles/Pipeworld/_Textures/Texture_Pipeworld_Lights_Pipes_Walls_Emissive.Texture_Pipeworld_Lights_Pipes_Walls_Emissive'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveOverride }
+                    ParameterInfos[1] = { Name=EmissiveStrength }
+                    ParameterInfos[2] = { Name=Light Depth }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Light Two }
+                    ParameterInfos[1] = { Name=Default Color }
+                    ParameterInfos[2] = { Name=Light Three }
+                    ParameterInfos[3] = { Name=Color }
+                    ParameterInfos[4] = { Name=Light One }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 0, 0, 0 }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0.124772, G=1, B=0.194618, A=0 }
+            VectorValues[1] = { R=1, G=0.01, B=0.015, A=1 }
+            VectorValues[2] = { R=1, G=0.445201, B=0.043735, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=0 }
+            VectorValues[4] = { R=1, G=0.0748498, B=0.194583, A=0 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[10] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Art/SharedTextures/Texture_Shared_ComputerScreenEffects.Texture_Shared_ComputerScreenEffects'
+        ReferencedTextures[1] = Texture2D'/Game/Art/SharedTextures/Texture_Shared_ComputerScreenEffects_Atlas.Texture_Shared_ComputerScreenEffects_Atlas'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[4] = Texture2D'/Game/Art/Materials/Masters/LightFlickers.LightFlickers'
+        ReferencedTextures[5] = Texture2D'/Game/Art/Tiles/Pipeworld/_Textures/Texture_Pipeworld_Lights_Pipes_Walls_Emissive.Texture_Pipeworld_Lights_Pipes_Walls_Emissive'
+        ReferencedTextures[6] = Texture2D'/Game/Art/Textures/Reactor/Corridor/Reactor_CorridorTiles_26_27_BaseColor.Reactor_CorridorTiles_26_27_BaseColor'
+        ReferencedTextures[7] = Texture2D'/Game/Art/Textures/Reactor/Corridor/Reactor_CorridorTiles_26_27_Normal.Reactor_CorridorTiles_26_27_Normal'
+        ReferencedTextures[8] = Texture2D'/Game/Art/Textures/Reactor/Corridor/Reactor_CorridorTiles_26_27_OcclusionRoughnessMetallic.Reactor_CorridorTiles_26_27_OcclusionRoughnessMetallic'
+        ReferencedTextures[9] = Texture2D'/Game/Art/Textures/Reactor/Corridor/Reactor_CorridorTiles_26_27_Emissive.Reactor_CorridorTiles_26_27_Emissive'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=EmissiveOverride, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=EmissiveStrength, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Light Depth, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.124772, G=1, B=0.194618, A=0 }
+        Name = Light Two
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.01, B=0.015, A=1 }
+        Name = Default Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0.445201, B=0.043735, A=0 }
+        Name = Light Three
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=0.0748498, B=0.194583, A=0 }
+        Name = Light One
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Reactor_CorridorTiles_26_27_BaseColor
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Reactor_CorridorTiles_26_27_Normal
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Reactor_CorridorTiles_26_27_OcclusionRoughnessMetallic
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = Texture_Shared_ComputerScreenEffects_Atlas
+    }
+}

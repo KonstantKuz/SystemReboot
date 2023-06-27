@@ -1,0 +1,6 @@
+Diffuse=BlendFunc_DefBase
+Normal=Flight_CeilingFloor_Normal
+Other[0]=BlendFunc_DefBlend
+Other[1]=Flight_CeilingFloor_BaseColor
+Other[2]=Flight_CeilingFloor_ColorMask
+Other[3]=Flight_CeilingFloor_OcclusionRoughnessMetallic

@@ -1,0 +1,160 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[13] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[5] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    ReferencedTextures[6] = Texture2D'/Game/Art/Materials/Masters/LightFlickers.LightFlickers'
+    ReferencedTextures[7] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Hangar_BaseColor.Flight_Hangar_BaseColor'
+    ReferencedTextures[8] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Hangar_Emissive.Flight_Hangar_Emissive'
+    ReferencedTextures[9] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Hangar_Normal.Flight_Hangar_Normal'
+    ReferencedTextures[10] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Hangar_OcclusionRoughnessMetallic.Flight_Hangar_OcclusionRoughnessMetallic'
+    ReferencedTextures[11] = Texture2D'/Game/Art/Textures/FlightDeck/T_FloorGrunge.T_FloorGrunge'
+    ReferencedTextures[12] = Texture2D'/Game/Art/Textures/FlightDeck/T_NoiseFlipbook.T_NoiseFlipbook'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=RoughnessMiddle }
+                    ParameterInfos[1] = { Name=EmissiveOverride }
+                    ParameterInfos[2] = { Name=EmissiveStrength }
+                    ParameterInfos[3] = { Name=Bulb_Exponent }
+                    ParameterInfos[4] = { Name=RoughnessStrength }
+                    ParameterInfos[5] = { Name=TimePhase }
+                    ParameterInfos[6] = { Name=MipBias }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Bulb_Color }
+                    ParameterInfos[1] = { Name=Color }
+                    ParameterInfos[2] = { Name=Forcefield_Color }
+                    ParameterInfos[3] = { Name=Orange_Color }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 0.5, 0, 0, 2, 0.15, 0, -1 }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=0.463542, G=0.741468, B=1, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+            VectorValues[2] = { R=0.348958, G=0.90415, B=1, A=1 }
+            VectorValues[3] = { R=0.53125, G=0.228478, B=0, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[14] =
+    {
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[2] = Texture2D'/Game/Art/Textures/FlightDeck/T_FloorGrunge.T_FloorGrunge'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[5] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[6] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[7] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+        ReferencedTextures[8] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Hangar_BaseColor.Flight_Hangar_BaseColor'
+        ReferencedTextures[9] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Hangar_OcclusionRoughnessMetallic.Flight_Hangar_OcclusionRoughnessMetallic'
+        ReferencedTextures[10] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Hangar_Normal.Flight_Hangar_Normal'
+        ReferencedTextures[11] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Hangar_Emissive.Flight_Hangar_Emissive'
+        ReferencedTextures[12] = Texture2D'/Game/Art/Materials/Masters/LightFlickers.LightFlickers'
+        ReferencedTextures[13] = Texture2D'/Game/Art/Textures/FlightDeck/T_NoiseFlipbook.T_NoiseFlipbook'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=RoughnessMiddle, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=EmissiveOverride, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=EmissiveStrength, Group=None }
+    CollectedScalarParameters[3] = { Value=2, Name=Bulb_Exponent, Group=None }
+    CollectedScalarParameters[4] = { Value=0.15, Name=RoughnessStrength, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=TimePhase, Group=None }
+    CollectedScalarParameters[6] = { Value=-1, Name=MipBias, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.463542, G=0.741468, B=1, A=1 }
+        Name = Bulb_Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.348958, G=0.90415, B=1, A=1 }
+        Name = Forcefield_Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.53125, G=0.228478, B=0, A=1 }
+        Name = Orange_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Flight_Hangar_BaseColor
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Flight_Hangar_Emissive
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Flight_Hangar_Normal
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Flight_Hangar_OcclusionRoughnessMetallic
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_FloorGrunge
+    }
+}

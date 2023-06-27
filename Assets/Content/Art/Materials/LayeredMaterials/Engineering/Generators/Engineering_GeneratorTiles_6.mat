@@ -1,0 +1,6 @@
+Diffuse=BlendFunc_DefBase
+Normal=Engineering_GeneratorTiles_6_Normal
+Emissive=Engineering_GeneratorTiles_6_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=Engineering_GeneratorTiles_6_BaseColor
+Other[2]=Engineering_GeneratorTiles_6_OcclusionRoughnessMetallic

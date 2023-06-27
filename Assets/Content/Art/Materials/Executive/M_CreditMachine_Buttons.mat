@@ -1,0 +1,5 @@
+Diffuse=Texture_VendingMachine_Numbers
+Normal=EXEC_CreditMachine_Normal
+Emissive=EXEC_CreditMachine_Emissive
+Other[0]=EXEC_CreditMachine_BaseColor
+Other[1]=EXEC_CreditMachine_OcclusionRoughnessMetallic

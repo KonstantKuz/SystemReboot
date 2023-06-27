@@ -1,0 +1,153 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Game/Art/Tiles/Maintenance/_Textures/Texture_Maintenance_Dirt_Masks.Texture_Maintenance_Dirt_Masks'
+    ReferencedTextures[3] = Texture2D'/Game/Art/Tiles/Maintenance/_Textures/Texture_Maintenance_Floor_BaseColor.Texture_Maintenance_Floor_BaseColor'
+    ReferencedTextures[4] = Texture2D'/Game/Art/Tiles/Maintenance/_Textures/Texture_Maintrenance_Floor_Normal.Texture_Maintrenance_Floor_Normal'
+    ReferencedTextures[5] = Texture2D'/Game/Art/Tiles/Maintenance/_Textures/Texture_Maintrenance_Floor_OcclusionRoughnessMetallic.Texture_Maintrenance_Floor_OcclusionRoughnessMetallic'
+    ReferencedTextures[6] = Texture2D'/Game/Art/Tiles/Maintenance/_Textures/Texture_Maintrenance_Greebles_Masks.Texture_Maintrenance_Greebles_Masks'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=RoughnessMiddle }
+                    ParameterInfos[1] = { Name=Param_1 }
+                    ParameterInfos[2] = { Name=RoughnessStrength }
+                    ParameterInfos[3] = { Name=Param }
+                    ParameterInfos[4] = { Name=DirtBlend }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=AO Occlusion Roughness }
+                    ParameterInfos[2] = { Name=BaseColor }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 0.3, 0.4, 1, 0.3, 1.5 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Art/Tiles/Maintenance/_Textures/Texture_Maintrenance_Floor_Normal.Texture_Maintrenance_Floor_Normal'
+            TextureValues[1] = Texture2D'/Game/Art/Tiles/Maintenance/_Textures/Texture_Maintrenance_Floor_OcclusionRoughnessMetallic.Texture_Maintrenance_Floor_OcclusionRoughnessMetallic'
+            TextureValues[2] = Texture2D'/Game/Art/Tiles/Maintenance/_Textures/Texture_Maintenance_Floor_BaseColor.Texture_Maintenance_Floor_BaseColor'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[2] = Texture2D'/Game/Art/Tiles/Maintenance/_Textures/Texture_Maintrenance_Greebles_Masks.Texture_Maintrenance_Greebles_Masks'
+        ReferencedTextures[3] = Texture2D'/Game/Art/Tiles/Maintenance/_Textures/Texture_Maintrenance_Floor_OcclusionRoughnessMetallic.Texture_Maintrenance_Floor_OcclusionRoughnessMetallic'
+        ReferencedTextures[4] = Texture2D'/Game/Art/Tiles/Maintenance/_Textures/Texture_Maintrenance_Floor_Normal.Texture_Maintrenance_Floor_Normal'
+        ReferencedTextures[5] = Texture2D'/Game/Art/Tiles/Maintenance/_Textures/Texture_Maintenance_Floor_BaseColor.Texture_Maintenance_Floor_BaseColor'
+        ReferencedTextures[6] = Texture2D'/Game/Art/Tiles/Maintenance/_Textures/Texture_Maintenance_Dirt_Masks.Texture_Maintenance_Dirt_Masks'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Art/Tiles/Maintenance/_Textures/Texture_Maintrenance_Floor_Normal.Texture_Maintrenance_Floor_Normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Art/Tiles/Maintenance/_Textures/Texture_Maintrenance_Floor_OcclusionRoughnessMetallic.Texture_Maintrenance_Floor_OcclusionRoughnessMetallic'
+        Name = AO Occlusion Roughness
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Art/Tiles/Maintenance/_Textures/Texture_Maintenance_Floor_BaseColor.Texture_Maintenance_Floor_BaseColor'
+        Name = BaseColor
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0.3, Name=RoughnessMiddle, Group=None }
+    CollectedScalarParameters[1] = { Value=0.4, Name=Param_1, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=RoughnessStrength, Group=None }
+    CollectedScalarParameters[3] = { Value=0.3, Name=Param, Group=None }
+    CollectedScalarParameters[4] = { Value=1.5, Name=DirtBlend, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = Texture_Maintenance_Dirt_Masks
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Texture_Maintenance_Floor_BaseColor
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Texture_Maintrenance_Floor_Normal
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Texture_Maintrenance_Floor_OcclusionRoughnessMetallic
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = Texture_Maintrenance_Greebles_Masks
+    }
+}

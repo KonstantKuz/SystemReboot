@@ -1,0 +1,125 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[12] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[4] = Texture2D'/Game/Art/Materials/LayeredMaterials/ShodanFight/FloorWebCookie.FloorWebCookie'
+    ReferencedTextures[5] = Texture2D'/Game/Art/Textures/Cyberspace/Cyberspace_Back01_Default_normal.Cyberspace_Back01_Default_normal'
+    ReferencedTextures[6] = Texture2D'/Game/Art/Textures/Reactor/TechGreebles/LightFlash.LightFlash'
+    ReferencedTextures[7] = Texture2D'/Game/Art/Textures/Reactor/TechGreebles/TechGreeblePlane_TechGreebleMat_BaseColor.TechGreeblePlane_TechGreebleMat_BaseColor'
+    ReferencedTextures[8] = Texture2D'/Game/Art/Textures/Reactor/TechGreebles/TechGreeblePlane_TechGreebleMat_Normal.TechGreeblePlane_TechGreebleMat_Normal'
+    ReferencedTextures[9] = Texture2D'/Game/Art/Textures/Reactor/TechGreebles/TechGreeblePlane_TechGreebleMat_OcclusionRoughnessMetallic.TechGreeblePlane_TechGreebleMat_OcclusionRoughnessMetallic'
+    ReferencedTextures[10] = Texture2D'/Game/Art/Textures/Reactor/TechGreebles/TechGreeblesDepth.TechGreeblesDepth'
+    ReferencedTextures[11] = TextureCube4'/Game/Art/PreviewEnvironmentMap_Tex.PreviewEnvironmentMap_Tex'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=Reference Plane (S) }
+                    ParameterInfos[1] = { Name=Height }
+                    ParameterInfos[2] = { Name=WaveOffset }
+                    ParameterInfos[3] = { Name=Radius }
+                    ParameterInfos[4] = { Name=Max Expensive Steps Debug Color }
+                    ParameterInfos[5] = { Name=Height Ratio (S) }
+                    ParameterInfos[6] = { Name=Offset }
+                    ParameterInfos[7] = { Name=TimePhase }
+                    ParameterInfos[8] = { Name=Chop2 }
+                    ParameterInfos[9] = { Name=Chop }
+                    ParameterInfos[10] = { Name=WaveExponent }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[11] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 10
+            ScalarValues[2] = 0.25
+            ScalarValues[3] = 24935.3
+            ScalarValues[4] = 32
+            ScalarValues[5] = 0.02
+            ScalarValues[6] = -20000
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0.1
+            ScalarValues[9] = 0.2
+            ScalarValues[10] = 200
+        }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[14] =
+    {
+        ReferencedTextures[0] = TextureCube4'/Game/Art/PreviewEnvironmentMap_Tex.PreviewEnvironmentMap_Tex'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[5] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[6] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+        ReferencedTextures[7] = Texture2D'/Game/Art/Textures/Reactor/TechGreebles/TechGreeblePlane_TechGreebleMat_BaseColor.TechGreeblePlane_TechGreebleMat_BaseColor'
+        ReferencedTextures[8] = Texture2D'/Game/Art/Textures/Reactor/TechGreebles/TechGreeblePlane_TechGreebleMat_Normal.TechGreeblePlane_TechGreebleMat_Normal'
+        ReferencedTextures[9] = Texture2D'/Game/Art/Textures/Reactor/TechGreebles/TechGreeblePlane_TechGreebleMat_OcclusionRoughnessMetallic.TechGreeblePlane_TechGreebleMat_OcclusionRoughnessMetallic'
+        ReferencedTextures[10] = Texture2D'/Game/Art/Textures/Reactor/TechGreebles/TechGreeblesDepth.TechGreeblesDepth'
+        ReferencedTextures[11] = Texture2D'/Game/Art/Textures/Reactor/TechGreebles/LightFlash.LightFlash'
+        ReferencedTextures[12] = Texture2D'/Game/Art/Textures/Cyberspace/Cyberspace_Back01_Default_normal.Cyberspace_Back01_Default_normal'
+        ReferencedTextures[13] = Texture2D'/Game/Art/Materials/LayeredMaterials/ShodanFight/FloorWebCookie.FloorWebCookie'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Reference Plane (S), Group=None }
+    CollectedScalarParameters[1] = { Value=10, Name=Height, Group=None }
+    CollectedScalarParameters[2] = { Value=0.25, Name=WaveOffset, Group=None }
+    CollectedScalarParameters[3] = { Value=24935.3, Name=Radius, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 32
+        Name = Max Expensive Steps Debug Color
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=0.02, Name=Height Ratio (S), Group=None }
+    CollectedScalarParameters[6] = { Value=-20000, Name=Offset, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=TimePhase, Group=None }
+    CollectedScalarParameters[8] = { Value=0.1, Name=Chop2, Group=None }
+    CollectedScalarParameters[9] = { Value=0.2, Name=Chop, Group=None }
+    CollectedScalarParameters[10] = { Value=200, Name=WaveExponent, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = LightFlash
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = TechGreeblePlane_TechGreebleMat_BaseColor
+    }
+}

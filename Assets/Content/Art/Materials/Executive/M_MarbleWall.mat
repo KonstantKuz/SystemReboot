@@ -1,0 +1,5 @@
+Diffuse=EXEC_Marble_Pattern
+Normal=M_MarbleWall_Normal
+Emissive=M_MarbleWall_Emissive
+Other[0]=M_MarbleWall_BaseColor
+Other[1]=M_MarbleWall_OcclusionRoughnessMetallic

@@ -1,0 +1,8 @@
+Diffuse=BlendFunc_DefBase
+Normal=Research_Corridors_Tiles12_Normal
+Emissive=Research_Corridors_Tiles12_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=Texture_Shared_ComputerScreenEffects
+Other[2]=Texture_Shared_ComputerScreenEffects_Atlas
+Other[3]=Research_Corridors_Tiles12_BaseColor
+Other[4]=Research_Corridors_Tiles12_OcclusionRoughnessMetallic

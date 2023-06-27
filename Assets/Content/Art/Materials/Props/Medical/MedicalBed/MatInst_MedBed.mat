@@ -1,0 +1,13 @@
+Diffuse=MedBed_Low_DefaultMaterial_BaseColor
+Normal=MedBed_Low_DefaultMaterial_Normal
+Emissive=MedBed_Low_DefaultMaterial_Emissive
+Other[0]=MedBed_Low_DefaultMaterial_OcclusionRoughnessMetallic
+Other[1]=DefaultDiffuse
+Other[2]=DebugNumberStrip
+Other[3]=DebugNumberPeriod
+Other[4]=flipbook
+Other[5]=Texture_Thermometer_BaseColor
+Other[6]=Texture_Thermometer_Emissive
+Other[7]=Texture_Thermometer_Normal
+Other[8]=Texture_Thermometer_Reflection
+Other[9]=PROP_InterfaceDemodulatorFlipbook

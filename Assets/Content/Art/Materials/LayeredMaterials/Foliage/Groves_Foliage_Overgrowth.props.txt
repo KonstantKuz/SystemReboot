@@ -1,0 +1,68 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+    ReferencedTextures[2] = Texture2D'/Game/Art/Textures/Foliage/Groves/Groves_Foliage_low_GrovesOvergrowth_BaseColor.Groves_Foliage_low_GrovesOvergrowth_BaseColor'
+    ReferencedTextures[3] = Texture2D'/Game/Art/Textures/Foliage/Groves/Groves_Foliage_low_GrovesOvergrowth_Normal.Groves_Foliage_low_GrovesOvergrowth_Normal'
+    ReferencedTextures[4] = Texture2D'/Game/Art/Textures/Foliage/Groves/Groves_Foliage_low_GrovesOvergrowth_OcclusionRoughnessMetallic.Groves_Foliage_low_GrovesOvergrowth_OcclusionRoughnessMetallic'
+    ReferencedTextures[5] = Texture2D'/Game/Art/Textures/Foliage/Groves/GrovesOvergrowth_Height.GrovesOvergrowth_Height'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Max Expensive Steps Debug Color }
+                    ParameterInfos[1] = { Name=PixelDepth }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[2] = { 32, 0.05 }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Art/Textures/Foliage/Groves/Groves_Foliage_low_GrovesOvergrowth_BaseColor.Groves_Foliage_low_GrovesOvergrowth_BaseColor'
+        ReferencedTextures[1] = Texture2D'/Game/Art/Textures/Foliage/Groves/Groves_Foliage_low_GrovesOvergrowth_Normal.Groves_Foliage_low_GrovesOvergrowth_Normal'
+        ReferencedTextures[2] = Texture2D'/Game/Art/Textures/Foliage/Groves/Groves_Foliage_low_GrovesOvergrowth_OcclusionRoughnessMetallic.Groves_Foliage_low_GrovesOvergrowth_OcclusionRoughnessMetallic'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+        ReferencedTextures[4] = Texture2D'/Game/Art/Textures/Foliage/Groves/GrovesOvergrowth_Height.GrovesOvergrowth_Height'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 32
+        Name = Max Expensive Steps Debug Color
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=0.05, Name=PixelDepth, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

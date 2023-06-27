@@ -1,0 +1,10 @@
+Diffuse=DefaultDiffuse
+Normal=DefaultNormal
+Other[0]=LowResBlurredNoise
+Other[1]=Saturn
+Other[2]=Saturn_CloudMap
+Other[3]=Saturn_CloudMap_Normal
+Other[4]=Saturn_FlowMap
+Other[5]=Saturn_Noise
+Other[6]=Saturn_Normal
+Other[7]=T_SaturnRingPermeability

@@ -1,0 +1,6 @@
+Diffuse=BlendFunc_DefBase
+Normal=Research_Flooring_LargeTiles_Normal
+Emissive=Research_Flooring_LargeTiles_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=Research_Flooring_LargeTiles_BaseColor
+Other[2]=Research_Flooring_LargeTiles_OcclusionRoughnessMetallic

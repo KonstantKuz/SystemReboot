@@ -1,0 +1,14 @@
+Diffuse=DefaultDiffuse
+Normal=Grating_Normal
+Emissive=Grating_Emissive
+Other[0]=Grating_BaseColor
+Other[1]=Grating_OcclusionRoughnessMetallic
+Other[2]=DebugNumberStrip
+Other[3]=DebugNumberPeriod
+Other[4]=flipbook
+Other[5]=LightFlickers2
+Other[6]=Texture_Shared_Gradient
+Other[7]=Texture_Medical_Computer_Shelves_Supports_BaseColor
+Other[8]=Texture_Medical_Computer_Shelves_Supports_Emissive
+Other[9]=Texture_Medical_Computer_Shelves_Supports_Normal
+Other[10]=Texture_Medical_Computer_Shelves_Supports_OcclusionRoughnessMetallic

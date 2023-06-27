@@ -1,0 +1,14 @@
+Diffuse=BlendFunc_DefBase
+Normal=Counters_Set01_Normal
+Emissive=Counters_Set01_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=Counters_Set01_BaseColor
+Other[2]=Counters_Set01_OcclusionRoughnessMetallic
+Other[3]=Counters_Set03_BaseColor
+Other[4]=Counters_Set03_Emissive
+Other[5]=Counters_Set03_Normal
+Other[6]=Counters_Set03_OcclusionRoughnessMetallic
+Other[7]=Research_CeilingTiles_BaseColor
+Other[8]=Research_CeilingTiles_Emissive
+Other[9]=Research_CeilingTiles_Normal
+Other[10]=Research_CeilingTiles_OcclusionRoughnessMetallic

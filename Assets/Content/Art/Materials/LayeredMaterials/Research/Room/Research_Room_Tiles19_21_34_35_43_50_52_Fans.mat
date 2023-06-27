@@ -1,0 +1,10 @@
+Diffuse=BlendFunc_DefBase
+Normal=Research_Room_Tiles_19_21_34_35_43_50_51_Normal
+Emissive=Research_Room_Tiles_19_21_34_35_43_50_51_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=LightFlickers
+Other[2]=Texture_Shared_ComputerScreenEffects
+Other[3]=Texture_Shared_ComputerScreenEffects_Atlas
+Other[4]=Research_Room_Tiles_19_21_34_35_43_50_51_BaseColor
+Other[5]=Research_Room_Tiles_19_21_34_35_43_50_51_OcclusionRoughnessMetallic
+Other[6]=Texture_Pipeworld_Lights_Pipes_Walls_Emissive

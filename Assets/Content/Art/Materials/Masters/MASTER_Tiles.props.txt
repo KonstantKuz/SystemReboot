@@ -1,0 +1,245 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[10] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    ReferencedTextures[4] = Texture2D'/Game/Art/Materials/Masters/LightFlickers2.LightFlickers2'
+    ReferencedTextures[5] = Texture2D'/Game/Art/SharedTextures/Texture_Shared_Gradient.Texture_Shared_Gradient'
+    ReferencedTextures[6] = Texture2D'/Game/Art/Tiles/Medical/_Textures/Texture_Medical_Computer_Shelves_Supports_BaseColor.Texture_Medical_Computer_Shelves_Supports_BaseColor'
+    ReferencedTextures[7] = Texture2D'/Game/Art/Tiles/Medical/_Textures/Texture_Medical_Computer_Shelves_Supports_Emissive.Texture_Medical_Computer_Shelves_Supports_Emissive'
+    ReferencedTextures[8] = Texture2D'/Game/Art/Tiles/Medical/_Textures/Texture_Medical_Computer_Shelves_Supports_Normal.Texture_Medical_Computer_Shelves_Supports_Normal'
+    ReferencedTextures[9] = Texture2D'/Game/Art/Tiles/Medical/_Textures/Texture_Medical_Computer_Shelves_Supports_OcclusionRoughnessMetallic.Texture_Medical_Computer_Shelves_Supports_OcclusionRoughnessMetallic'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[20] =
+                {
+                    ParameterInfos[0] = { Name=Albedo Strength }
+                    ParameterInfos[1] = { Name=AO Power }
+                    ParameterInfos[2] = { Name=Fresnel Power }
+                    ParameterInfos[3] = { Name=EmissivePower }
+                    ParameterInfos[4] = { Name=AO Strength }
+                    ParameterInfos[5] = { Name=Metal Strength }
+                    ParameterInfos[6] = { Name=EmissiveStrength }
+                    ParameterInfos[7] = { Name=Albedo Power }
+                    ParameterInfos[8] = { Name=EmissiveStrength_1 }
+                    ParameterInfos[9] = { Name=Albedo Desaturation }
+                    ParameterInfos[10] = { Name=Metal Power }
+                    ParameterInfos[11] = { Name=TilingMultiply }
+                    ParameterInfos[12] = { Name=Emissive Panning Speed }
+                    ParameterInfos[13] = { Name=Panner Levels }
+                    ParameterInfos[14] = { Name=Roughness Strength }
+                    ParameterInfos[15] = { Name=Panner Strength }
+                    ParameterInfos[16] = { Name=FlickerMaskPow }
+                    ParameterInfos[17] = { Name=Roughness Power }
+                    ParameterInfos[18] = { Name=FlickerSpeed }
+                    ParameterInfos[19] = { Name=FlickerRandomAmount }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveColour }
+                    ParameterInfos[1] = { Name=Emissive }
+                    ParameterInfos[2] = { Name=Colour }
+                    ParameterInfos[3] = { Name=DamageOffset }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Base Colour }
+                    ParameterInfos[1] = { Name=Emissive }
+                    ParameterInfos[2] = { Name=Normal }
+                    ParameterInfos[3] = { Name=Panner Texture }
+                    ParameterInfos[4] = { Name=Packed Maps }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[20] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 2
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 50
+            ScalarValues[7] = 1
+            ScalarValues[8] = 50
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0.01
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+            ScalarValues[16] = 4
+            ScalarValues[17] = 1
+            ScalarValues[18] = 20
+            ScalarValues[19] = 1
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=0.100152, G=0.739583, B=0.72898, A=1 }
+            VectorValues[3] = { R=25, G=0, B=0, A=1 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Game/Art/Tiles/Medical/_Textures/Texture_Medical_Computer_Shelves_Supports_BaseColor.Texture_Medical_Computer_Shelves_Supports_BaseColor'
+            TextureValues[1] = Texture2D'/Game/Art/Tiles/Medical/_Textures/Texture_Medical_Computer_Shelves_Supports_Emissive.Texture_Medical_Computer_Shelves_Supports_Emissive'
+            TextureValues[2] = Texture2D'/Game/Art/Tiles/Medical/_Textures/Texture_Medical_Computer_Shelves_Supports_Normal.Texture_Medical_Computer_Shelves_Supports_Normal'
+            TextureValues[3] = Texture2D'/Game/Art/SharedTextures/Texture_Shared_Gradient.Texture_Shared_Gradient'
+            TextureValues[4] = Texture2D'/Game/Art/Tiles/Medical/_Textures/Texture_Medical_Computer_Shelves_Supports_OcclusionRoughnessMetallic.Texture_Medical_Computer_Shelves_Supports_OcclusionRoughnessMetallic'
+        }
+    }
+    ReferencedTextures[11] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Art/Tiles/Medical/_Textures/Texture_Medical_Computer_Shelves_Supports_Normal.Texture_Medical_Computer_Shelves_Supports_Normal'
+        ReferencedTextures[1] = Texture2D'/Game/Art/Tiles/Medical/_Textures/Texture_Medical_Computer_Shelves_Supports_BaseColor.Texture_Medical_Computer_Shelves_Supports_BaseColor'
+        ReferencedTextures[2] = Texture2D'/Game/Art/Tiles/Medical/_Textures/Texture_Medical_Computer_Shelves_Supports_OcclusionRoughnessMetallic.Texture_Medical_Computer_Shelves_Supports_OcclusionRoughnessMetallic'
+        ReferencedTextures[3] = Texture2D'/Game/Art/Tiles/Medical/_Textures/Texture_Medical_Computer_Shelves_Supports_Emissive.Texture_Medical_Computer_Shelves_Supports_Emissive'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[6] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[7] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[8] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+        ReferencedTextures[9] = Texture2D'/Game/Art/SharedTextures/Texture_Shared_Gradient.Texture_Shared_Gradient'
+        ReferencedTextures[10] = Texture2D'/Game/Art/Materials/Masters/LightFlickers2.LightFlickers2'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Art/Tiles/Medical/_Textures/Texture_Medical_Computer_Shelves_Supports_BaseColor.Texture_Medical_Computer_Shelves_Supports_BaseColor'
+        Name = Base Colour
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Art/Tiles/Medical/_Textures/Texture_Medical_Computer_Shelves_Supports_Emissive.Texture_Medical_Computer_Shelves_Supports_Emissive'
+        Name = Emissive
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Art/Tiles/Medical/_Textures/Texture_Medical_Computer_Shelves_Supports_Normal.Texture_Medical_Computer_Shelves_Supports_Normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Art/SharedTextures/Texture_Shared_Gradient.Texture_Shared_Gradient'
+        Name = Panner Texture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Art/Tiles/Medical/_Textures/Texture_Medical_Computer_Shelves_Supports_OcclusionRoughnessMetallic.Texture_Medical_Computer_Shelves_Supports_OcclusionRoughnessMetallic'
+        Name = Packed Maps
+        Group = None
+    }
+}
+CollectedScalarParameters[20] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Albedo Strength, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=AO Power, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Fresnel Power, Group=None }
+    CollectedScalarParameters[3] = { Value=2, Name=EmissivePower, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=AO Strength, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Metal Strength, Group=None }
+    CollectedScalarParameters[6] = { Value=50, Name=EmissiveStrength, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Albedo Power, Group=None }
+    CollectedScalarParameters[8] = { Value=50, Name=EmissiveStrength_1, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Albedo Desaturation, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Metal Power, Group=None }
+    CollectedScalarParameters[11] = { Value=0.01, Name=TilingMultiply, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Emissive Panning Speed, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Panner Levels, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Roughness Strength, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Panner Strength, Group=None }
+    CollectedScalarParameters[16] = { Value=4, Name=FlickerMaskPow, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=Roughness Power, Group=None }
+    CollectedScalarParameters[18] = { Value=20, Name=FlickerSpeed, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=FlickerRandomAmount, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = EmissiveColour
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Emissive
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.100152, G=0.739583, B=0.72898, A=1 }
+        Name = Colour
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=25, G=0, B=0, A=1 }
+        Name = DamageOffset
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Texture_Medical_Computer_Shelves_Supports_BaseColor
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Texture_Medical_Computer_Shelves_Supports_Emissive
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Texture_Medical_Computer_Shelves_Supports_Normal
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Texture_Medical_Computer_Shelves_Supports_OcclusionRoughnessMetallic
+    }
+}

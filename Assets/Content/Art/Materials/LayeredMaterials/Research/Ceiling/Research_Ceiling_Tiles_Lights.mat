@@ -1,0 +1,6 @@
+Diffuse=BlendFunc_DefBase
+Normal=Research_CeilingTiles_Lights_Normal
+Emissive=Research_CeilingTiles_Lights_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=Research_CeilingTiles_Lights_BaseColor
+Other[2]=Research_CeilingTiles_Lights_OcclusionRoughnessMetallic

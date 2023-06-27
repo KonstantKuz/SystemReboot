@@ -1,0 +1,8 @@
+Diffuse=BlendFunc_DefBase
+Normal=Flight_Generator_Normal
+Emissive=Flight_Generator_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=T_Noise_01
+Other[2]=LightFlickers
+Other[3]=Flight_Generator_BaseColor
+Other[4]=Flight_Generator_OcclusionRoughnessMetallic

@@ -1,0 +1,11 @@
+Diffuse=DefaultDiffuse
+Normal=Cyberspace_Back01_Default_normal
+Other[0]=T_EV_BlankWhite_01
+Other[1]=DebugNumberStrip
+Other[2]=DebugNumberPeriod
+Other[3]=LightFlash
+Other[4]=TechGreeblePlane_TechGreebleMat_BaseColor
+Other[5]=TechGreeblePlane_TechGreebleMat_Normal
+Other[6]=TechGreeblePlane_TechGreebleMat_OcclusionRoughnessMetallic
+Other[7]=TechGreeblesDepth
+Other[8]=PreviewEnvironmentMap_Tex

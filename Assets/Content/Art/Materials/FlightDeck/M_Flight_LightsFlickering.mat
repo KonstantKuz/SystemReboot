@@ -1,0 +1,9 @@
+Diffuse=BlendFunc_DefBase
+Normal=Flight_Glass_Normal
+Emissive=Flight_Glass_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=LightFlickersRGB
+Other[2]=Flight_Glass_BaseColor
+Other[3]=Flight_Glass_Depth
+Other[4]=Flight_Glass_OcclusionRoughnessMetallic
+Other[5]=Texture_Pipeworld_Ceilings_Columns_Lights_Glass_Tri_Emissive

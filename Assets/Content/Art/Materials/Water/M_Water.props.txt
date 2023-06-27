@@ -1,0 +1,199 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Art/Materials/Water/Textures/T_Noise15.T_Noise15'
+    ReferencedTextures[1] = Texture2D'/Game/Art/Materials/Water/Textures/T_Stone_N.T_Stone_N'
+    ReferencedTextures[2] = Texture2D'/Game/Art/Materials/Water/Textures/T_Water_Normal_2.T_Water_Normal_2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[23] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=VertOffsetShake_Value }
+                    ParameterInfos[2] = { Name=Metallic }
+                    ParameterInfos[3] = { Name=Specular }
+                    ParameterInfos[4] = { Name=Normals_Variation_Speed }
+                    ParameterInfos[5] = { Name=VerticalMask_Falloff }
+                    ParameterInfos[6] = { Name=VertOffset_Time }
+                    ParameterInfos[7] = { Name=FallingMask_Speed }
+                    ParameterInfos[8] = { Name=VertOffset_Value }
+                    ParameterInfos[9] = { Name=FallingMask_Intensity }
+                    ParameterInfos[10] = { Name=Param }
+                    ParameterInfos[11] = { Name=VertOffsetShake_Time }
+                    ParameterInfos[12] = { Name=FallingMask_Speed_2 }
+                    ParameterInfos[13] = { Name=Normals_Variation_Intensity }
+                    ParameterInfos[14] = { Name=FallingMask_Tilng_x }
+                    ParameterInfos[15] = { Name=Normals_Intensity }
+                    ParameterInfos[16] = { Name=Normals_Tiling }
+                    ParameterInfos[17] = { Name=OpacityDeep }
+                    ParameterInfos[18] = { Name=Opacity }
+                    ParameterInfos[19] = { Name=Normals_Variation_Tiling }
+                    ParameterInfos[20] = { Name=FallingMask_Tilng }
+                    ParameterInfos[21] = { Name=Normals_Speed }
+                    ParameterInfos[22] = { Name=FallingMask_Tilng_y }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Colour }
+                    ParameterInfos[1] = { Name=ColourDeep }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[23] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0.95
+            ScalarValues[3] = 0.5
+            ScalarValues[4] = 1
+            ScalarValues[5] = 4
+            ScalarValues[6] = 0.40943
+            ScalarValues[7] = 10
+            ScalarValues[8] = 0.031747
+            ScalarValues[9] = 3
+            ScalarValues[10] = 2.3468
+            ScalarValues[11] = 5
+            ScalarValues[12] = 6.30247
+            ScalarValues[13] = 0.25
+            ScalarValues[14] = 2
+            ScalarValues[15] = 1
+            ScalarValues[16] = 3
+            ScalarValues[17] = 1
+            ScalarValues[18] = 1
+            ScalarValues[19] = 1
+            ScalarValues[20] = 3.24401
+            ScalarValues[21] = 7.69749
+            ScalarValues[22] = 2
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.6354, G=1, B=0.996684, A=1 }
+            VectorValues[1] = { R=0.342346, G=0.677671, B=1, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Art/Materials/Water/Textures/T_Noise15.T_Noise15'
+        ReferencedTextures[1] = Texture2D'/Game/Art/Materials/Water/Textures/T_Water_Normal_2.T_Water_Normal_2'
+        ReferencedTextures[2] = Texture2D'/Game/Art/Materials/Water/Textures/T_Stone_N.T_Stone_N'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[23] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=VertOffsetShake_Value, Group=None }
+    CollectedScalarParameters[2] = { Value=0.95, Name=Metallic, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1
+        Name = Normals_Variation_Speed
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=4, Name=VerticalMask_Falloff, Group=None }
+    CollectedScalarParameters[6] = { Value=0.40943, Name=VertOffset_Time, Group=None }
+    CollectedScalarParameters[7] = { Value=10, Name=FallingMask_Speed, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 0.031747
+        Name = VertOffset_Value
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=3, Name=FallingMask_Intensity, Group=None }
+    CollectedScalarParameters[10] = { Value=2.3468, Name=Param, Group=None }
+    CollectedScalarParameters[11] = { Value=5, Name=VertOffsetShake_Time, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 6.30247
+        Name = FallingMask_Speed_2
+        Group = None
+    }
+    CollectedScalarParameters[13] =
+    {
+        Value = 0.25
+        Name = Normals_Variation_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[14] = { Value=2, Name=FallingMask_Tilng_x, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Normals_Intensity, Group=None }
+    CollectedScalarParameters[16] = { Value=3, Name=Normals_Tiling, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=OpacityDeep, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[19] =
+    {
+        Value = 1
+        Name = Normals_Variation_Tiling
+        Group = None
+    }
+    CollectedScalarParameters[20] =
+    {
+        Value = 3.24401
+        Name = FallingMask_Tilng
+        Group = None
+    }
+    CollectedScalarParameters[21] = { Value=7.69749, Name=Normals_Speed, Group=None }
+    CollectedScalarParameters[22] = { Value=2, Name=FallingMask_Tilng_y, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.6354, G=1, B=0.996684, A=1 }
+        Name = Colour
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.342346, G=0.677671, B=1, A=1 }
+        Name = ColourDeep
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.25
+        UVChannelIndex = 0
+        TextureName = T_Noise15
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 6
+        UVChannelIndex = 0
+        TextureName = T_Stone_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_Water_Normal_2
+    }
+}

@@ -1,0 +1,4 @@
+Diffuse=Texture_Thermometer_BaseColor
+Normal=Texture_Thermometer_Normal
+Emissive=Texture_Thermometer_Emissive
+Other[0]=Texture_Thermometer_Reflection

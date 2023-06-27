@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Art/Materials/Saturn/StarField/StarField.StarField'
+    Materials[1] = Material3'/Game/Art/Materials/Saturn/StarField/StarField.StarField'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Art/Materials/Saturn/StarField/StarField.StarField'
+        MaterialSlotName = GalaxyField
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 381.356, 387.7, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Art/Materials/Saturn/StarField/StarField.StarField'
+        MaterialSlotName = starfield
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 381.479, 197.419, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.28882e-05, Y=-2.28882e-05, Z=0 }
+    BoxExtent = { X=64, Y=64, Z=64 }
+    SphereRadius = 64.0001
+}

@@ -1,0 +1,98 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=TempAA Radial Blur (S) }
+                    ParameterInfos[1] = { Name=Radial Offset (S) }
+                    ParameterInfos[2] = { Name=Distance (S) }
+                    ParameterInfos[3] = { Name=Steps }
+                    ParameterInfos[4] = { Name=Fan 1 Speed }
+                    ParameterInfos[5] = { Name=Param }
+                    ParameterInfos[6] = { Name=Opacity }
+                    ParameterInfos[7] = { Name=IOR }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Base Color }
+                    ParameterInfos[1] = { Name=Axis }
+                    ParameterInfos[2] = { Name=Fan 1 Pivot }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 2, 1, 0.01, 4, -0.06, 0, 0.7, 1.33 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0.169271, G=0.208333, B=0.187792, A=1 }
+            VectorValues[1] = { R=0, G=1, B=0, A=1 }
+            VectorValues[2] = { R=-66.5, G=0, B=100, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=TempAA Radial Blur (S), Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Radial Offset (S), Group=None }
+    CollectedScalarParameters[2] = { Value=0.01, Name=Distance (S), Group=None }
+    CollectedScalarParameters[3] = { Value=4, Name=Steps, Group=None }
+    CollectedScalarParameters[4] = { Value=-0.06, Name=Fan 1 Speed, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Param, Group=None }
+    CollectedScalarParameters[6] = { Value=0.7, Name=Opacity, Group=None }
+    CollectedScalarParameters[7] = { Value=1.33, Name=IOR, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.169271, G=0.208333, B=0.187792, A=1 }
+        Name = Base Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=1, B=0, A=1 }
+        Name = Axis
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=-66.5, G=0, B=100, A=1 }
+        Name = Fan 1 Pivot
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

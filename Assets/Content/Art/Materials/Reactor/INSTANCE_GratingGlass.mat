@@ -1,0 +1,4 @@
+Normal=Grating_Normal
+Other[0]=Grating_OcclusionRoughnessMetallic
+Other[1]=Texture_Shared_Glass_Normal
+Other[2]=Texture_Shared_Glass_OcclusionRoughnessMetallic

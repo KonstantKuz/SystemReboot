@@ -1,0 +1,4 @@
+Diffuse=EXEC_WoodPaneling_BaseColor
+Normal=EXEC_WoodPaneling_Normal
+Emissive=EXEC_WoodPaneling_Emissive
+Other[0]=EXEC_WoodPaneling_OcclusionRoughnessMetallic

@@ -1,0 +1,6 @@
+Diffuse=BlendFunc_DefBase
+Normal=Research_Corridors_Tiles3_4_Normal
+Emissive=Research_Corridors_Tiles3_4_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=Research_Corridors_Tiles3_4_BaseColor
+Other[2]=Research_Corridors_Tiles3_4_OcclusionRoughnessMetallic

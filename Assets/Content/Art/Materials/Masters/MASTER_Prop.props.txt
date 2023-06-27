@@ -1,0 +1,173 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    ReferencedTextures[4] = Texture2D'/Game/Art/Interactables/Pickups/Junk/Medical/Thermometer/Textures/Texture_Thermometer_BaseColor.Texture_Thermometer_BaseColor'
+    ReferencedTextures[5] = Texture2D'/Game/Art/Interactables/Pickups/Junk/Medical/Thermometer/Textures/Texture_Thermometer_Emissive.Texture_Thermometer_Emissive'
+    ReferencedTextures[6] = Texture2D'/Game/Art/Interactables/Pickups/Junk/Medical/Thermometer/Textures/Texture_Thermometer_Normal.Texture_Thermometer_Normal'
+    ReferencedTextures[7] = Texture2D'/Game/Art/Interactables/Pickups/Junk/Medical/Thermometer/Textures/Texture_Thermometer_Reflection.Texture_Thermometer_Reflection'
+    ReferencedTextures[8] = Texture2D'/Game/Art/Props/Maintenance/InterfaceDemodulator/PROP_InterfaceDemodulatorFlipbook.PROP_InterfaceDemodulatorFlipbook'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=FlickerStrength }
+                    ParameterInfos[1] = { Name=Emissive Strength }
+                    ParameterInfos[2] = { Name=EmissivePower }
+                    ParameterInfos[3] = { Name=Columns }
+                    ParameterInfos[4] = { Name=Rows }
+                    ParameterInfos[5] = { Name=Anim Phase }
+                    ParameterInfos[6] = { Name=FlickerSpeed }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveColour }
+                    ParameterInfos[1] = { Name=Colour }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Base Color }
+                    ParameterInfos[1] = { Name=Flipbook Animation }
+                    ParameterInfos[2] = { Name=Emissive }
+                    ParameterInfos[3] = { Name=Normal }
+                    ParameterInfos[4] = { Name=Masks }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 0, 0, 1, 4, 4, 1, 0 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=0.100152, G=0.739583, B=0.72898, A=1 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Game/Art/Interactables/Pickups/Junk/Medical/Thermometer/Textures/Texture_Thermometer_BaseColor.Texture_Thermometer_BaseColor'
+            TextureValues[1] = Texture2D'/Game/Art/Props/Maintenance/InterfaceDemodulator/PROP_InterfaceDemodulatorFlipbook.PROP_InterfaceDemodulatorFlipbook'
+            TextureValues[2] = Texture2D'/Game/Art/Interactables/Pickups/Junk/Medical/Thermometer/Textures/Texture_Thermometer_Emissive.Texture_Thermometer_Emissive'
+            TextureValues[3] = Texture2D'/Game/Art/Interactables/Pickups/Junk/Medical/Thermometer/Textures/Texture_Thermometer_Normal.Texture_Thermometer_Normal'
+            TextureValues[4] = Texture2D'/Game/Art/Interactables/Pickups/Junk/Medical/Thermometer/Textures/Texture_Thermometer_Reflection.Texture_Thermometer_Reflection'
+        }
+    }
+    ReferencedTextures[10] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Art/Interactables/Pickups/Junk/Medical/Thermometer/Textures/Texture_Thermometer_Reflection.Texture_Thermometer_Reflection'
+        ReferencedTextures[1] = Texture2D'/Game/Art/Interactables/Pickups/Junk/Medical/Thermometer/Textures/Texture_Thermometer_Normal.Texture_Thermometer_Normal'
+        ReferencedTextures[2] = Texture2D'/Game/Art/Interactables/Pickups/Junk/Medical/Thermometer/Textures/Texture_Thermometer_BaseColor.Texture_Thermometer_BaseColor'
+        ReferencedTextures[3] = Texture2D'/Game/Art/Interactables/Pickups/Junk/Medical/Thermometer/Textures/Texture_Thermometer_Emissive.Texture_Thermometer_Emissive'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[6] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[7] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[8] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+        ReferencedTextures[9] = Texture2D'/Game/Art/Props/Maintenance/InterfaceDemodulator/PROP_InterfaceDemodulatorFlipbook.PROP_InterfaceDemodulatorFlipbook'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Art/Interactables/Pickups/Junk/Medical/Thermometer/Textures/Texture_Thermometer_BaseColor.Texture_Thermometer_BaseColor'
+        Name = Base Color
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Art/Props/Maintenance/InterfaceDemodulator/PROP_InterfaceDemodulatorFlipbook.PROP_InterfaceDemodulatorFlipbook'
+        Name = Flipbook Animation
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Art/Interactables/Pickups/Junk/Medical/Thermometer/Textures/Texture_Thermometer_Emissive.Texture_Thermometer_Emissive'
+        Name = Emissive
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Art/Interactables/Pickups/Junk/Medical/Thermometer/Textures/Texture_Thermometer_Normal.Texture_Thermometer_Normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Art/Interactables/Pickups/Junk/Medical/Thermometer/Textures/Texture_Thermometer_Reflection.Texture_Thermometer_Reflection'
+        Name = Masks
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=FlickerStrength, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Emissive Strength, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=EmissivePower, Group=None }
+    CollectedScalarParameters[3] = { Value=4, Name=Columns, Group=None }
+    CollectedScalarParameters[4] = { Value=4, Name=Rows, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Anim Phase, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=FlickerSpeed, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = EmissiveColour
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.100152, G=0.739583, B=0.72898, A=1 }
+        Name = Colour
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Texture_Thermometer_BaseColor
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Texture_Thermometer_Normal
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Texture_Thermometer_Reflection
+    }
+}

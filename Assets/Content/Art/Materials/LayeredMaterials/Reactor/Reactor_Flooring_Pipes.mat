@@ -1,0 +1,6 @@
+Normal=FloorMat_Normal
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=FloorMat_BaseColor
+Other[3]=FloorMat_OcclusionRoughnessMetallic
+Other[4]=PreviewEnvironmentMap_Tex

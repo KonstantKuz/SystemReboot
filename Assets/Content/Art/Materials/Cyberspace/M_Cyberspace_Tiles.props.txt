@@ -1,0 +1,131 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Art/Textures/Cyberspace/T_CYBER_Tile_Emissive.T_CYBER_Tile_Emissive'
+    ReferencedTextures[1] = Texture2D'/Game/Art/Textures/Cyberspace/T_CYBER_Tile_Normal.T_CYBER_Tile_Normal'
+    ReferencedTextures[2] = TextureCube4'/Game/Art/PreviewEnvironmentMap_Tex.PreviewEnvironmentMap_Tex'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=LifeFlags }
+                    ParameterInfos[1] = { Name=SpeedTwo (S) }
+                    ParameterInfos[2] = { Name=Circuit Exponent }
+                    ParameterInfos[3] = { Name=Circuit Noise Size }
+                    ParameterInfos[4] = { Name=WaveOffset }
+                    ParameterInfos[5] = { Name=RemoveDistance }
+                    ParameterInfos[6] = { Name=Env Fade Brightness }
+                    ParameterInfos[7] = { Name=RemoveOffset }
+                    ParameterInfos[8] = { Name=ReflectionMipmap }
+                    ParameterInfos[9] = { Name=ExplodeAmount }
+                    ParameterInfos[10] = { Name=Circuit Strength }
+                    ParameterInfos[11] = { Name=SpeedOne (S) }
+                    ParameterInfos[12] = { Name=Circuit Speed }
+                    ParameterInfos[13] = { Name=Phase (S) }
+                    ParameterInfos[14] = { Name=Env Strength }
+                    ParameterInfos[15] = { Name=Env Fade Exponent }
+                    ParameterInfos[16] = { Name=WaveExponent }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=WarpDirection }
+                    ParameterInfos[1] = { Name=CircuitDirection }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[17] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0.05
+            ScalarValues[2] = 1.5
+            ScalarValues[3] = 15000
+            ScalarValues[4] = 0.25
+            ScalarValues[5] = 2000
+            ScalarValues[6] = 0.5
+            ScalarValues[7] = 5000
+            ScalarValues[8] = 1
+            ScalarValues[9] = 200
+            ScalarValues[10] = 15
+            ScalarValues[11] = 0.1
+            ScalarValues[12] = 0.3
+            ScalarValues[13] = 0
+            ScalarValues[14] = 6
+            ScalarValues[15] = 1.5
+            ScalarValues[16] = 200
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=-0.03, G=-0.04, B=-0.06, A=0 }
+            VectorValues[1] = { R=0.05, G=0.07, B=0.02, A=0 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/Art/Textures/Cyberspace/T_CYBER_Tile_Normal.T_CYBER_Tile_Normal'
+        ReferencedTextures[2] = Texture2D'/Game/Art/Textures/Cyberspace/T_CYBER_Tile_Emissive.T_CYBER_Tile_Emissive'
+        ReferencedTextures[4] = TextureCube4'/Game/Art/PreviewEnvironmentMap_Tex.PreviewEnvironmentMap_Tex'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.5
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[17] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=LifeFlags, Group=None }
+    CollectedScalarParameters[1] = { Value=0.05, Name=SpeedTwo (S), Group=None }
+    CollectedScalarParameters[2] = { Value=1.5, Name=Circuit Exponent, Group=None }
+    CollectedScalarParameters[3] = { Value=15000, Name=Circuit Noise Size, Group=None }
+    CollectedScalarParameters[4] = { Value=0.25, Name=WaveOffset, Group=None }
+    CollectedScalarParameters[5] = { Value=2000, Name=RemoveDistance, Group=None }
+    CollectedScalarParameters[6] = { Value=0.5, Name=Env Fade Brightness, Group=None }
+    CollectedScalarParameters[7] = { Value=5000, Name=RemoveOffset, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=ReflectionMipmap, Group=None }
+    CollectedScalarParameters[9] = { Value=200, Name=ExplodeAmount, Group=None }
+    CollectedScalarParameters[10] = { Value=15, Name=Circuit Strength, Group=None }
+    CollectedScalarParameters[11] = { Value=0.1, Name=SpeedOne (S), Group=None }
+    CollectedScalarParameters[12] = { Value=0.3, Name=Circuit Speed, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Phase (S), Group=None }
+    CollectedScalarParameters[14] = { Value=6, Name=Env Strength, Group=None }
+    CollectedScalarParameters[15] = { Value=1.5, Name=Env Fade Exponent, Group=None }
+    CollectedScalarParameters[16] = { Value=200, Name=WaveExponent, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=-0.03, G=-0.04, B=-0.06, A=0 }
+        Name = WarpDirection
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.05, G=0.07, B=0.02, A=0 }
+        Name = CircuitDirection
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

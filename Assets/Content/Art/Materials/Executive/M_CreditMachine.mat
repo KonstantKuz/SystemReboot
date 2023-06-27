@@ -1,0 +1,5 @@
+Diffuse=EXEC_CreditMachine_BaseColor
+Normal=EXEC_CreditMachine_Normal
+Emissive=EXEC_CreditMachine_Emissive
+Other[0]=EXEC_CreditMachine_OcclusionRoughnessMetallic
+Other[1]=T_GlowSmall

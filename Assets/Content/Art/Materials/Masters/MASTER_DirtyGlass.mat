@@ -1,0 +1,4 @@
+Normal=Texture_LogoDoor_Normal
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=Texture_LogoDoor_BaseColor
+Other[2]=Texture_LogoDoor_OcclusionRoughnessMetallic

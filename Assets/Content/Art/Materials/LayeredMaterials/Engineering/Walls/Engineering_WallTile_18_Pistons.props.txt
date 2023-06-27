@@ -1,0 +1,172 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Game/Art/SharedTextures/Texture_Shared_ComputerScreenEffects.Texture_Shared_ComputerScreenEffects'
+    ReferencedTextures[3] = Texture2D'/Game/Art/SharedTextures/Texture_Shared_ComputerScreenEffects_Atlas.Texture_Shared_ComputerScreenEffects_Atlas'
+    ReferencedTextures[4] = Texture2D'/Game/Art/Textures/Engineering/Walls/Engineering_WallTile_18_19_BaseColor.Engineering_WallTile_18_19_BaseColor'
+    ReferencedTextures[5] = Texture2D'/Game/Art/Textures/Engineering/Walls/Engineering_WallTile_18_19_Emissive.Engineering_WallTile_18_19_Emissive'
+    ReferencedTextures[6] = Texture2D'/Game/Art/Textures/Engineering/Walls/Engineering_WallTile_18_19_Normal.Engineering_WallTile_18_19_Normal'
+    ReferencedTextures[7] = Texture2D'/Game/Art/Textures/Engineering/Walls/Engineering_WallTile_18_19_OcclusionRoughnessMetallic.Engineering_WallTile_18_19_OcclusionRoughnessMetallic'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=Translate Distance }
+                    ParameterInfos[1] = { Name=EmissiveOverride }
+                    ParameterInfos[2] = { Name=EmissiveStrength }
+                    ParameterInfos[3] = { Name=Light Phase }
+                    ParameterInfos[4] = { Name=Param }
+                    ParameterInfos[5] = { Name=FlashingSpeed }
+                    ParameterInfos[6] = { Name=PistonCurve }
+                    ParameterInfos[7] = { Name=Light Speed }
+                    ParameterInfos[8] = { Name=FlashingPhase }
+                    ParameterInfos[9] = { Name=Piston Speed }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Light Two }
+                    ParameterInfos[1] = { Name=Default Color }
+                    ParameterInfos[2] = { Name=Light Three }
+                    ParameterInfos[3] = { Name=Param }
+                    ParameterInfos[4] = { Name=Color }
+                    ParameterInfos[5] = { Name=Light One }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 10, 0, 0, 0.7, 0, 0.1, 0, 0.2, 0, 0.25 }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0.479062, G=1, B=0.899853, A=0 }
+            VectorValues[1] = { R=0.302083, G=0.256456, B=0.256456, A=1 }
+            VectorValues[2] = { R=1, G=0.176029, B=0.215835, A=0 }
+            VectorValues[3] = { R=0.5, G=0.3, B=0.4, A=0.2 }
+            VectorValues[4] = { R=1, G=1, B=1, A=0 }
+            VectorValues[5] = { R=1, G=0.785961, B=0.284579, A=0 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/Art/SharedTextures/Texture_Shared_ComputerScreenEffects.Texture_Shared_ComputerScreenEffects'
+        ReferencedTextures[2] = Texture2D'/Game/Art/SharedTextures/Texture_Shared_ComputerScreenEffects_Atlas.Texture_Shared_ComputerScreenEffects_Atlas'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[5] = Texture2D'/Game/Art/Textures/Engineering/Walls/Engineering_WallTile_18_19_BaseColor.Engineering_WallTile_18_19_BaseColor'
+        ReferencedTextures[6] = Texture2D'/Game/Art/Textures/Engineering/Walls/Engineering_WallTile_18_19_Normal.Engineering_WallTile_18_19_Normal'
+        ReferencedTextures[7] = Texture2D'/Game/Art/Textures/Engineering/Walls/Engineering_WallTile_18_19_OcclusionRoughnessMetallic.Engineering_WallTile_18_19_OcclusionRoughnessMetallic'
+        ReferencedTextures[8] = Texture2D'/Game/Art/Textures/Engineering/Walls/Engineering_WallTile_18_19_Emissive.Engineering_WallTile_18_19_Emissive'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=Translate Distance, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=EmissiveOverride, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=EmissiveStrength, Group=None }
+    CollectedScalarParameters[3] = { Value=0.7, Name=Light Phase, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Param, Group=None }
+    CollectedScalarParameters[5] = { Value=0.1, Name=FlashingSpeed, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=PistonCurve, Group=None }
+    CollectedScalarParameters[7] = { Value=0.2, Name=Light Speed, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=FlashingPhase, Group=None }
+    CollectedScalarParameters[9] = { Value=0.25, Name=Piston Speed, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.479062, G=1, B=0.899853, A=0 }
+        Name = Light Two
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.302083, G=0.256456, B=0.256456, A=1 }
+        Name = Default Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0.176029, B=0.215835, A=0 }
+        Name = Light Three
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.5, G=0.3, B=0.4, A=0.2 }
+        Name = Param
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=0.785961, B=0.284579, A=0 }
+        Name = Light One
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[5] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Engineering_WallTile_18_19_BaseColor
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Engineering_WallTile_18_19_Emissive
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Engineering_WallTile_18_19_Normal
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Engineering_WallTile_18_19_OcclusionRoughnessMetallic
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = Texture_Shared_ComputerScreenEffects_Atlas
+    }
+}

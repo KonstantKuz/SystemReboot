@@ -1,0 +1,8 @@
+Diffuse=BlendFunc_DefBase
+Normal=Engineering_trimTiles_7_8_9_Normal
+Emissive=Engineering_trimTiles_1_2_3_4_5_6_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=LightFlickers
+Other[2]=Engineering_trimTiles_7_8_9_BaseColor
+Other[3]=Engineering_trimTiles_7_8_9_OcclusionRoughnessMetallic
+Other[4]=Texture_Pipeworld_Lights_Pipes_Walls_Emissive

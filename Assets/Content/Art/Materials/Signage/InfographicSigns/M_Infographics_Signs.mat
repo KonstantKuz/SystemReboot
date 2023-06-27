@@ -1,0 +1,4 @@
+Diffuse=T_InfographicsSign_BaseColor
+Normal=T_InfographicsSign_Normal
+Emissive=T_InfographicsSign_Emissive
+Other[0]=T_InfographicsSign_OcclusionRoughnessMetallic

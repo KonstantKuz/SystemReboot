@@ -1,0 +1,135 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Art/Interactables/Doors/LogoDoor/Textures/Texture_LogoDoor_BaseColor.Texture_LogoDoor_BaseColor'
+    ReferencedTextures[2] = Texture2D'/Game/Art/Interactables/Doors/LogoDoor/Textures/Texture_LogoDoor_Normal.Texture_LogoDoor_Normal'
+    ReferencedTextures[3] = Texture2D'/Game/Art/Interactables/Doors/LogoDoor/Textures/Texture_LogoDoor_OcclusionRoughnessMetallic.Texture_LogoDoor_OcclusionRoughnessMetallic'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=TempAA Radial Blur (S) }
+                    ParameterInfos[1] = { Name=Radial Offset (S) }
+                    ParameterInfos[2] = { Name=Steps }
+                    ParameterInfos[3] = { Name=Distance (S)_Min }
+                    ParameterInfos[4] = { Name=Distance (S)_Max }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Tint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=BaseColour }
+                    ParameterInfos[2] = { Name=Param }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 2, 1, 4, 0.005, 0.005 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.619792, G=0.227373, B=0, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Art/Interactables/Doors/LogoDoor/Textures/Texture_LogoDoor_Normal.Texture_LogoDoor_Normal'
+            TextureValues[1] = Texture2D'/Game/Art/Interactables/Doors/LogoDoor/Textures/Texture_LogoDoor_BaseColor.Texture_LogoDoor_BaseColor'
+            TextureValues[2] = Texture2D'/Game/Art/Interactables/Doors/LogoDoor/Textures/Texture_LogoDoor_OcclusionRoughnessMetallic.Texture_LogoDoor_OcclusionRoughnessMetallic'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Art/Interactables/Doors/LogoDoor/Textures/Texture_LogoDoor_BaseColor.Texture_LogoDoor_BaseColor'
+        ReferencedTextures[1] = Texture2D'/Game/Art/Interactables/Doors/LogoDoor/Textures/Texture_LogoDoor_Normal.Texture_LogoDoor_Normal'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[3] = Texture2D'/Game/Art/Interactables/Doors/LogoDoor/Textures/Texture_LogoDoor_OcclusionRoughnessMetallic.Texture_LogoDoor_OcclusionRoughnessMetallic'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Art/Interactables/Doors/LogoDoor/Textures/Texture_LogoDoor_Normal.Texture_LogoDoor_Normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Art/Interactables/Doors/LogoDoor/Textures/Texture_LogoDoor_BaseColor.Texture_LogoDoor_BaseColor'
+        Name = BaseColour
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Art/Interactables/Doors/LogoDoor/Textures/Texture_LogoDoor_OcclusionRoughnessMetallic.Texture_LogoDoor_OcclusionRoughnessMetallic'
+        Name = Param
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=TempAA Radial Blur (S), Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Radial Offset (S), Group=None }
+    CollectedScalarParameters[2] = { Value=4, Name=Steps, Group=None }
+    CollectedScalarParameters[3] = { Value=0.005, Name=Distance (S)_Min, Group=None }
+    CollectedScalarParameters[4] = { Value=0.005, Name=Distance (S)_Max, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.619792, G=0.227373, B=0, A=1 }
+        Name = Tint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Texture_LogoDoor_BaseColor
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Texture_LogoDoor_Normal
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Texture_LogoDoor_OcclusionRoughnessMetallic
+    }
+}

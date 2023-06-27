@@ -1,0 +1,13 @@
+Diffuse=BlendFunc_DefBase
+Normal=Research_Room_Tiles_38_Normal
+Emissive=Research_Room_Tiles_38_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=LightFlickers
+Other[2]=panel_bubbles_mask
+Other[3]=Texture_Shared_ComputerScreenEffects
+Other[4]=Texture_Shared_ComputerScreenEffects_Atlas
+Other[5]=Research_waterTanks_mask
+Other[6]=Research_Room_Tiles_38_BaseColor
+Other[7]=Research_Room_Tiles_38_OcclusionRoughnessMetallic
+Other[8]=Texture_Medical_Lights_Depth
+Other[9]=Texture_Pipeworld_Lights_Pipes_Walls_Emissive

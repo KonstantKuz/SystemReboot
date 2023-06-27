@@ -1,0 +1,6 @@
+Diffuse=BlendFunc_DefBase
+Normal=Texture_Medical_Computer_Shelves_Supports_Normal
+Emissive=Texture_Medical_Computer_Shelves_Supports_Emissive
+Other[0]=BlendFunc_DefBlend
+Other[1]=Texture_Medical_Computer_Shelves_Supports_BaseColor
+Other[2]=Texture_Medical_Computer_Shelves_Supports_OcclusionRoughnessMetallic

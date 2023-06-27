@@ -1,0 +1,160 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Game/Art/Materials/Masters/LightFlickersRGB.LightFlickersRGB'
+    ReferencedTextures[3] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Glass_BaseColor.Flight_Glass_BaseColor'
+    ReferencedTextures[4] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Glass_Depth.Flight_Glass_Depth'
+    ReferencedTextures[5] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Glass_Emissive.Flight_Glass_Emissive'
+    ReferencedTextures[6] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Glass_Normal.Flight_Glass_Normal'
+    ReferencedTextures[7] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Glass_OcclusionRoughnessMetallic.Flight_Glass_OcclusionRoughnessMetallic'
+    ReferencedTextures[8] = Texture2D'/Game/Art/Tiles/Pipeworld/_Textures/Texture_Pipeworld_Ceilings_Columns_Lights_Glass_Tri_Emissive.Texture_Pipeworld_Ceilings_Columns_Lights_Glass_Tri_Emissive'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=Frosting (S) }
+                    ParameterInfos[1] = { Name=Faulty_Brightness }
+                    ParameterInfos[2] = { Name=Light_Intensity_5to8 }
+                    ParameterInfos[3] = { Name=Bulb_Exponent }
+                    ParameterInfos[4] = { Name=FadeDistance }
+                    ParameterInfos[5] = { Name=Faulty_Bits }
+                    ParameterInfos[6] = { Name=TimePhase }
+                    ParameterInfos[7] = { Name=MinBrightness }
+                    ParameterInfos[8] = { Name=PanningSharpness }
+                    ParameterInfos[9] = { Name=Depth (S) }
+                    ParameterInfos[10] = { Name=Light_Intensity_9to12 }
+                    ParameterInfos[11] = { Name=Speed (S) }
+                    ParameterInfos[12] = { Name=Light_Intensity_1to4 }
+                    ParameterInfos[13] = { Name=MipBias }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Bulb_Color }
+                    ParameterInfos[1] = { Name=Color }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] =
+        {
+            ScalarValues[0] = 0.2
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0
+            ScalarValues[3] = 1
+            ScalarValues[4] = 2400
+            ScalarValues[5] = 129
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0.2
+            ScalarValues[8] = 2
+            ScalarValues[9] = 0.2
+            ScalarValues[10] = 0
+            ScalarValues[11] = -1.2
+            ScalarValues[12] = 0
+            ScalarValues[13] = -1
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.760784, G=1.5451, B=2, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[10] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Art/Materials/Masters/LightFlickersRGB.LightFlickersRGB'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[3] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Glass_BaseColor.Flight_Glass_BaseColor'
+        ReferencedTextures[4] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Glass_OcclusionRoughnessMetallic.Flight_Glass_OcclusionRoughnessMetallic'
+        ReferencedTextures[5] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Glass_Normal.Flight_Glass_Normal'
+        ReferencedTextures[6] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Glass_Emissive.Flight_Glass_Emissive'
+        ReferencedTextures[7] = Texture2D'/Game/Art/Textures/FlightDeck/Flight_Glass_Depth.Flight_Glass_Depth'
+        ReferencedTextures[9] = Texture2D'/Game/Art/Tiles/Pipeworld/_Textures/Texture_Pipeworld_Ceilings_Columns_Lights_Glass_Tri_Emissive.Texture_Pipeworld_Ceilings_Columns_Lights_Glass_Tri_Emissive'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=Frosting (S), Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Faulty_Brightness, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Light_Intensity_5to8, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Bulb_Exponent, Group=None }
+    CollectedScalarParameters[4] = { Value=2400, Name=FadeDistance, Group=None }
+    CollectedScalarParameters[5] = { Value=129, Name=Faulty_Bits, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=TimePhase, Group=None }
+    CollectedScalarParameters[7] = { Value=0.2, Name=MinBrightness, Group=None }
+    CollectedScalarParameters[8] = { Value=2, Name=PanningSharpness, Group=None }
+    CollectedScalarParameters[9] = { Value=0.2, Name=Depth (S), Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Light_Intensity_9to12, Group=None }
+    CollectedScalarParameters[11] = { Value=-1.2, Name=Speed (S), Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Light_Intensity_1to4, Group=None }
+    CollectedScalarParameters[13] = { Value=-1, Name=MipBias, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.760784, G=1.5451, B=2, A=1 }
+        Name = Bulb_Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Flight_Glass_BaseColor
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Flight_Glass_Normal
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Flight_Glass_OcclusionRoughnessMetallic
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = LightFlickersRGB
+    }
+}
