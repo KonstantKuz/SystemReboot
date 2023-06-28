@@ -1,12 +1,15 @@
 ﻿using UnityEngine;
 
-public class SunController : MonoBehaviour
+namespace UnityFPS.Scripts.WallRunLevel
 {
-    public float rotationSpeed = 20;
-
-    void Update()
+    public class SunController : MonoBehaviour
     {
-        transform.Rotate(0 , rotationSpeed * Time.deltaTime, 0);
+        public float rotationSpeed = 20;
 
+        void Update()
+        {
+            transform.Rotate(0 , rotationSpeed * Time.deltaTime, 0);
+
+        }
     }
 }

@@ -1,46 +1,49 @@
 ﻿using UnityEngine;
 
-public class Damageable : MonoBehaviour
+namespace UnityFPS.Scripts
 {
-    [Tooltip("Multiplier to apply to the received damage")]
-    public float damageMultiplier = 1f;
-    [Range(0, 1)]
-    [Tooltip("Multiplier to apply to self damage")]
-    public float sensibilityToSelfdamage = 0.5f;
-
-    public Health health { get; private set; }
-
-    void Awake()
+    public class Damageable : MonoBehaviour
     {
-        // find the health component either at the same level, or higher in the hierarchy
-        health = GetComponent<Health>();
-        if (!health)
+        [Tooltip("Multiplier to apply to the received damage")]
+        public float damageMultiplier = 1f;
+        [Range(0, 1)]
+        [Tooltip("Multiplier to apply to self damage")]
+        public float sensibilityToSelfdamage = 0.5f;
+
+        public Health health { get; private set; }
+
+        void Awake()
         {
-            health = GetComponentInParent<Health>();
+            // find the health component either at the same level, or higher in the hierarchy
+            health = GetComponent<Health>();
+            if (!health)
+            {
+                health = GetComponentInParent<Health>();
+            }
         }
-    }
 
-    public void InflictDamage(float damage, bool isExplosionDamage, GameObject damageSource)
-    {
-
-        if(health)
+        public void InflictDamage(float damage, bool isExplosionDamage, GameObject damageSource)
         {
-            var totalDamage = damage;
 
-            // skip the crit multiplier if it's from an explosion
-            if (!isExplosionDamage)
+            if(health)
             {
-                totalDamage *= damageMultiplier;
-            }
+                var totalDamage = damage;
 
-            // potentially reduce damages if inflicted by self
-            if (health.gameObject == damageSource)
-            {
-                totalDamage *= sensibilityToSelfdamage;
-            }
+                // skip the crit multiplier if it's from an explosion
+                if (!isExplosionDamage)
+                {
+                    totalDamage *= damageMultiplier;
+                }
 
-            // apply the damages
-            health.TakeDamage(totalDamage, damageSource);
+                // potentially reduce damages if inflicted by self
+                if (health.gameObject == damageSource)
+                {
+                    totalDamage *= sensibilityToSelfdamage;
+                }
+
+                // apply the damages
+                health.TakeDamage(totalDamage, damageSource);
+            }
         }
     }
 }

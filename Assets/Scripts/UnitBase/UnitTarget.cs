@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace BaseUnit
+namespace UnitBase
 {
     public class UnitTarget : MonoBehaviour, ITarget
     {

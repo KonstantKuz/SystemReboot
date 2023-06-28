@@ -1755,7 +1755,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6800360939302422728}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SlicePlaneOrigin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4242,6 +4242,10 @@ PrefabInstance:
     - target: {fileID: 122258, guid: b130633139b221841898b87ec1eea873, type: 3}
       propertyPath: m_Name
       value: LightningBoltPathPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 122258, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 460504, guid: b130633139b221841898b87ec1eea873, type: 3}
       propertyPath: m_RootOrder

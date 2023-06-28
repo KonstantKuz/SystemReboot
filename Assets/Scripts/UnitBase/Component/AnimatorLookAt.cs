@@ -1,8 +1,7 @@
-using Extension;
 using JetBrains.Annotations;
 using UnityEngine;
 
-namespace BaseUnit
+namespace UnitBase.Component
 {
     public class AnimatorLookAt : MonoBehaviour
     {
@@ -14,7 +13,7 @@ namespace BaseUnit
 
         private void Awake()
         {
-            _animator = gameObject.RequireComponent<Animator>();
+            _animator = gameObject.GetComponent<Animator>();
         }
 
         public void OnAnimatorIK(int layerIndex)

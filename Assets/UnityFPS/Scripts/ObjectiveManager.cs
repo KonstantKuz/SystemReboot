@@ -1,31 +1,34 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectiveManager : MonoBehaviour
+namespace UnityFPS.Scripts
 {
-    List<Objective> m_Objectives = new List<Objective>();
-
-    public bool AreAllObjectivesCompleted()
+    public class ObjectiveManager : MonoBehaviour
     {
-        if (m_Objectives.Count == 0)
-            return false;
+        List<Objective> m_Objectives = new List<Objective>();
 
-        for (int i = 0; i < m_Objectives.Count; i++)
+        public bool AreAllObjectivesCompleted()
         {
-            // pass every objectives to check if they have been completed
-            if (m_Objectives[i].isBlocking())
-            {
-                // break the loop as soon as we find one uncompleted objective
+            if (m_Objectives.Count == 0)
                 return false;
+
+            for (int i = 0; i < m_Objectives.Count; i++)
+            {
+                // pass every objectives to check if they have been completed
+                if (m_Objectives[i].isBlocking())
+                {
+                    // break the loop as soon as we find one uncompleted objective
+                    return false;
+                }
             }
+
+            // found no uncompleted objective
+            return true;
         }
 
-        // found no uncompleted objective
-        return true;
-    }
-
-    public void RegisterObjective(Objective objective)
-    {
-        m_Objectives.Add(objective);
+        public void RegisterObjective(Objective objective)
+        {
+            m_Objectives.Add(objective);
+        }
     }
 }

@@ -1,23 +1,24 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class TimedSelfDestruct : MonoBehaviour
+namespace UnityFPS.Scripts
 {
-    public float lifeTime = 1f;
-
-    float m_spawnTime;
-
-    void Awake()
+    public class TimedSelfDestruct : MonoBehaviour
     {
-        m_spawnTime = Time.time;
-    }
+        public float lifeTime = 1f;
 
-    private void Update()
-    {
-        if(Time.time > m_spawnTime + lifeTime)
+        float m_spawnTime;
+
+        void Awake()
         {
-            Destroy(gameObject);
+            m_spawnTime = Time.time;
+        }
+
+        private void Update()
+        {
+            if(Time.time > m_spawnTime + lifeTime)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

@@ -1,12 +1,15 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class ActorsManager : MonoBehaviour
+namespace UnityFPS.Scripts
 {
-    public List<Actor> actors { get; private set; }
-
-    private void Awake()
+    public class ActorsManager : MonoBehaviour
     {
-        actors = new List<Actor>();
+        public List<Actor> actors { get; private set; }
+
+        private void Awake()
+        {
+            actors = new List<Actor>();
+        }
     }
 }

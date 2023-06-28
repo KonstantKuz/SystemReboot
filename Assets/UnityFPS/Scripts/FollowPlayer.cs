@@ -1,24 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class FollowPlayer : MonoBehaviour
+namespace UnityFPS.Scripts
 {
-    private Transform m_PlayerTransform;
-    private Vector3 m_OriginalOffset;
-
-    void Start()
+    public class FollowPlayer : MonoBehaviour
     {
-        PlayerCharacterController playerCharacterController = GameObject.FindObjectOfType<PlayerCharacterController>();
-        DebugUtility.HandleErrorIfNullFindObject<PlayerCharacterController, FollowPlayer>(playerCharacterController, this);
+        private Transform m_PlayerTransform;
+        private Vector3 m_OriginalOffset;
 
-        m_PlayerTransform = playerCharacterController.transform;
+        void Start()
+        {
+            PlayerCharacterController playerCharacterController = GameObject.FindObjectOfType<PlayerCharacterController>();
+            DebugUtility.HandleErrorIfNullFindObject<PlayerCharacterController, FollowPlayer>(playerCharacterController, this);
 
-        m_OriginalOffset = transform.position - m_PlayerTransform.position;
-    }
+            m_PlayerTransform = playerCharacterController.transform;
 
-    void LateUpdate()
-    {
-        transform.position = m_PlayerTransform.position + m_OriginalOffset;
+            m_OriginalOffset = transform.position - m_PlayerTransform.position;
+        }
+
+        void LateUpdate()
+        {
+            transform.position = m_PlayerTransform.position + m_OriginalOffset;
+        }
     }
 }

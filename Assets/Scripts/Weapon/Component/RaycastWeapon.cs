@@ -5,6 +5,7 @@ namespace Weapon.Component
 {
     public class RaycastWeapon : BaseWeapon, IFireNotifier, IHitNotifier
     {
+        private const float RAYCAST_RADIUS = 0.1f;
         [SerializeField] private Transform _raycastOrigin;
         [SerializeField] private float _maxDistance = 10;
 
@@ -13,7 +14,8 @@ namespace Weapon.Component
 
         public override void Fire(Action<HitInfo> hitCallback)
         {
-            Physics.Raycast(_raycastOrigin.position, _raycastOrigin.forward, out var hit, _maxDistance);
+            var ray = new Ray(_raycastOrigin.position, _raycastOrigin.forward);
+            Physics.SphereCast(ray, RAYCAST_RADIUS, out var hit, _maxDistance);
             var info = HitInfo.FromRaycastHit(hit);
             hitCallback?.Invoke(info);
             OnShoot?.Invoke();

@@ -1,45 +1,48 @@
 ﻿using UnityEngine;
 
-[RequireComponent(typeof(Pickup))]
-public class WeaponPickup : MonoBehaviour
+namespace UnityFPS.Scripts
 {
-    [Tooltip("The prefab for the weapon that will be added to the player on pickup")]
-    public WeaponController weaponPrefab;
-
-    Pickup m_Pickup;
-
-    void Start()
+    [RequireComponent(typeof(Pickup))]
+    public class WeaponPickup : MonoBehaviour
     {
-        m_Pickup = GetComponent<Pickup>();
-        DebugUtility.HandleErrorIfNullGetComponent<Pickup, WeaponPickup>(m_Pickup, this, gameObject);
+        [Tooltip("The prefab for the weapon that will be added to the player on pickup")]
+        public WeaponController weaponPrefab;
 
-        // Subscribe to pickup action
-        m_Pickup.onPick += OnPicked;
+        Pickup m_Pickup;
 
-        // Set all children layers to default (to prefent seeing weapons through meshes)
-        foreach(Transform t in GetComponentsInChildren<Transform>())
+        void Start()
         {
-            if (t != transform)
-                t.gameObject.layer = 0;
-        }
-    }
+            m_Pickup = GetComponent<Pickup>();
+            DebugUtility.HandleErrorIfNullGetComponent<Pickup, WeaponPickup>(m_Pickup, this, gameObject);
 
-    void OnPicked(PlayerCharacterController byPlayer)
-    {
-        PlayerWeaponsManager playerWeaponsManager = byPlayer.GetComponent<PlayerWeaponsManager>();
-        if (playerWeaponsManager)
-        {
-            if (playerWeaponsManager.AddWeapon(weaponPrefab))
+            // Subscribe to pickup action
+            m_Pickup.onPick += OnPicked;
+
+            // Set all children layers to default (to prefent seeing weapons through meshes)
+            foreach(Transform t in GetComponentsInChildren<Transform>())
             {
-                // Handle auto-switching to weapon if no weapons currently
-                if (playerWeaponsManager.GetActiveWeapon() == null)
+                if (t != transform)
+                    t.gameObject.layer = 0;
+            }
+        }
+
+        void OnPicked(PlayerCharacterController byPlayer)
+        {
+            PlayerWeaponsManager playerWeaponsManager = byPlayer.GetComponent<PlayerWeaponsManager>();
+            if (playerWeaponsManager)
+            {
+                if (playerWeaponsManager.AddWeapon(weaponPrefab))
                 {
-                    playerWeaponsManager.SwitchWeapon(true);
+                    // Handle auto-switching to weapon if no weapons currently
+                    if (playerWeaponsManager.GetActiveWeapon() == null)
+                    {
+                        playerWeaponsManager.SwitchWeapon(true);
+                    }
+
+                    m_Pickup.PlayPickupFeedback();
+
+                    Destroy(gameObject);
                 }
-
-                m_Pickup.PlayPickupFeedback();
-
-                Destroy(gameObject);
             }
         }
     }

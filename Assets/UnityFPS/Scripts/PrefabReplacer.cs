@@ -1,16 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class PrefabReplacer : MonoBehaviour
+namespace UnityFPS.Scripts
 {
-    [System.Serializable]
-    public struct ReplacementDefinition
+    public class PrefabReplacer : MonoBehaviour
     {
-        public GameObject SourcePrefab;
-        public GameObject TargetPrefab;
-    }
+        [System.Serializable]
+        public struct ReplacementDefinition
+        {
+            public GameObject SourcePrefab;
+            public GameObject TargetPrefab;
+        }
 
-    public bool switchOrder;
-    public List<ReplacementDefinition> replacements = new List<ReplacementDefinition>();
+        public bool switchOrder;
+        public List<ReplacementDefinition> replacements = new List<ReplacementDefinition>();
+    }
 }

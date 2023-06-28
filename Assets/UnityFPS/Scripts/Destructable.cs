@@ -1,27 +1,30 @@
 ﻿using UnityEngine;
 
-public class Destructable : MonoBehaviour
+namespace UnityFPS.Scripts
 {
-    Health m_Health;
-
-    void Start()
+    public class Destructable : MonoBehaviour
     {
-        m_Health = GetComponent<Health>();
-        DebugUtility.HandleErrorIfNullGetComponent<Health, Destructable>(m_Health, this, gameObject);
+        Health m_Health;
 
-        // Subscribe to damage & death actions
-        m_Health.onDie += OnDie;
-        m_Health.onDamaged += OnDamaged;
-    }
+        void Start()
+        {
+            m_Health = GetComponent<Health>();
+            DebugUtility.HandleErrorIfNullGetComponent<Health, Destructable>(m_Health, this, gameObject);
 
-    void OnDamaged(float damage, GameObject damageSource)
-    {
-        // TODO: damage reaction
-    }
+            // Subscribe to damage & death actions
+            m_Health.onDie += OnDie;
+            m_Health.onDamaged += OnDamaged;
+        }
 
-    void OnDie()
-    {
-        // this will call the OnDestroy function
-        Destroy(gameObject);
+        void OnDamaged(float damage, GameObject damageSource)
+        {
+            // TODO: damage reaction
+        }
+
+        void OnDie()
+        {
+            // this will call the OnDestroy function
+            Destroy(gameObject);
+        }
     }
 }

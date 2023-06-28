@@ -1,32 +1,35 @@
 ﻿using UnityEngine;
 
-public class HealthPickup : MonoBehaviour
+namespace UnityFPS.Scripts
 {
-    [Header("Parameters")]
-    [Tooltip("Amount of health to heal on pickup")]
-    public float healAmount;
-
-    Pickup m_Pickup;
-
-    void Start()
+    public class HealthPickup : MonoBehaviour
     {
-        m_Pickup = GetComponent<Pickup>();
-        DebugUtility.HandleErrorIfNullGetComponent<Pickup, HealthPickup>(m_Pickup, this, gameObject);
+        [Header("Parameters")]
+        [Tooltip("Amount of health to heal on pickup")]
+        public float healAmount;
 
-        // Subscribe to pickup action
-        m_Pickup.onPick += OnPicked;
-    }
+        Pickup m_Pickup;
 
-    void OnPicked(PlayerCharacterController player)
-    {
-        Health playerHealth = player.GetComponent<Health>();
-        if (playerHealth && playerHealth.canPickup())
+        void Start()
         {
-            playerHealth.Heal(healAmount);
+            m_Pickup = GetComponent<Pickup>();
+            DebugUtility.HandleErrorIfNullGetComponent<Pickup, HealthPickup>(m_Pickup, this, gameObject);
 
-            m_Pickup.PlayPickupFeedback();
+            // Subscribe to pickup action
+            m_Pickup.onPick += OnPicked;
+        }
 
-            Destroy(gameObject);
+        void OnPicked(PlayerCharacterController player)
+        {
+            Health playerHealth = player.GetComponent<Health>();
+            if (playerHealth && playerHealth.canPickup())
+            {
+                playerHealth.Heal(healAmount);
+
+                m_Pickup.PlayPickupFeedback();
+
+                Destroy(gameObject);
+            }
         }
     }
 }

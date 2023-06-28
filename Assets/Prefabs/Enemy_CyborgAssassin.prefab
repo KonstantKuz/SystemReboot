@@ -10,6 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5352107147543730478}
   - component: {fileID: 6886190711110356271}
+  - component: {fileID: 8845339072635064078}
+  - component: {fileID: 2847816331824128225}
+  - component: {fileID: 8629788229072051914}
+  - component: {fileID: 6768700547064967176}
   - component: {fileID: 1604163043092339400}
   m_Layer: 0
   m_Name: Enemy_CyborgAssassin
@@ -43,6 +47,55 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 763a8818e1624ee49fc5e16da7f32f90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8845339072635064078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425460824716540373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9da17c503b34b8a95b6e71fc2966510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2847816331824128225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425460824716540373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a25a6a7c644ccf8d70630dda7f1ea2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _center: {fileID: 5829415246407814132}
+--- !u!114 &8629788229072051914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425460824716540373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc8a7f04db974cd4abe1d96da9a725c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6768700547064967176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425460824716540373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d1601e49d7409c8973bc1868342f96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1604163043092339400
@@ -316,6 +369,12 @@ GameObject:
 --- !u!4 &5942619943797488752 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 655873873195013176, guid: d9df4e17b17356549a906e9408d843f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 6584909763107940424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5829415246407814132 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 829914458258056124, guid: d9df4e17b17356549a906e9408d843f2,
     type: 3}
   m_PrefabInstance: {fileID: 6584909763107940424}
   m_PrefabAsset: {fileID: 0}

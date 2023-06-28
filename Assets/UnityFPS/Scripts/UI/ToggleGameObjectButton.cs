@@ -1,24 +1,27 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class ToggleGameObjectButton : MonoBehaviour
+namespace UnityFPS.Scripts.UI
 {
-    public GameObject objectToToggle;
-    public bool resetSelectionAfterClick;
-
-    void Update()
+    public class ToggleGameObjectButton : MonoBehaviour
     {
-        if (objectToToggle.activeSelf && Input.GetButtonDown(GameConstants.k_ButtonNameCancel))
+        public GameObject objectToToggle;
+        public bool resetSelectionAfterClick;
+
+        void Update()
         {
-            SetGameObjectActive(false);
+            if (objectToToggle.activeSelf && Input.GetButtonDown(GameConstants.k_ButtonNameCancel))
+            {
+                SetGameObjectActive(false);
+            }
         }
-    }
 
-    public void SetGameObjectActive(bool active)
-    {
-        objectToToggle.SetActive(active);
+        public void SetGameObjectActive(bool active)
+        {
+            objectToToggle.SetActive(active);
 
-        if (resetSelectionAfterClick)
-            EventSystem.current.SetSelectedGameObject(null);
+            if (resetSelectionAfterClick)
+                EventSystem.current.SetSelectedGameObject(null);
+        }
     }
 }

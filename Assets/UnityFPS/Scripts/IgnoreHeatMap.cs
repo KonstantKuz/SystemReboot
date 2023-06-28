@@ -1,7 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class IgnoreHeatMap : MonoBehaviour
+namespace UnityFPS.Scripts
 {
+    public class IgnoreHeatMap : MonoBehaviour
+    {
+    }
 }

@@ -7,6 +7,7 @@ namespace Weapon.Service
         public override void InstallBindings()
         {
             Container.Bind<WeaponFactory>().AsSingle();
+            Container.Bind<ActiveWeaponService>().AsSingle();
         }
     }
 }

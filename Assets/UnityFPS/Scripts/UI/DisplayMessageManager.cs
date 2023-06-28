@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 
-public class DisplayMessageManager : MonoBehaviour
+namespace UnityFPS.Scripts.UI
 {
-    public Transform DisplayMessageRect;
+    public class DisplayMessageManager : MonoBehaviour
+    {
+        public Transform DisplayMessageRect;
+    }
 }

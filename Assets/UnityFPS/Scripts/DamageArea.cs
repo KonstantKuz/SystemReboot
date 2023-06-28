@@ -1,47 +1,50 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class DamageArea : MonoBehaviour
+namespace UnityFPS.Scripts
 {
-    [Tooltip("Area of damage when the projectile hits something")]
-    public float areaOfEffectDistance = 5f;
-    [Tooltip("Damage multiplier over distance for area of effect")]
-    public AnimationCurve damageRatioOverDistance;
-
-    [Header("Debug")]
-    [Tooltip("Color of the area of effect radius")]
-    public Color areaOfEffectColor = Color.red * 0.5f;
-
-    public void InflictDamageInArea(float damage, Vector3 center, LayerMask layers, QueryTriggerInteraction interaction, GameObject owner)
+    public class DamageArea : MonoBehaviour
     {
-        Dictionary<Health, Damageable> uniqueDamagedHealths = new Dictionary<Health, Damageable>();
+        [Tooltip("Area of damage when the projectile hits something")]
+        public float areaOfEffectDistance = 5f;
+        [Tooltip("Damage multiplier over distance for area of effect")]
+        public AnimationCurve damageRatioOverDistance;
 
-        // Create a collection of unique health components that would be damaged in the area of effect (in order to avoid damaging a same entity multiple times)
-        Collider[] affectedColliders = Physics.OverlapSphere(center, areaOfEffectDistance, layers, interaction);
-        foreach (var coll in affectedColliders)
+        [Header("Debug")]
+        [Tooltip("Color of the area of effect radius")]
+        public Color areaOfEffectColor = Color.red * 0.5f;
+
+        public void InflictDamageInArea(float damage, Vector3 center, LayerMask layers, QueryTriggerInteraction interaction, GameObject owner)
         {
-            Damageable damageable = coll.GetComponent<Damageable>();
-            if (damageable)
+            Dictionary<Health, Damageable> uniqueDamagedHealths = new Dictionary<Health, Damageable>();
+
+            // Create a collection of unique health components that would be damaged in the area of effect (in order to avoid damaging a same entity multiple times)
+            Collider[] affectedColliders = Physics.OverlapSphere(center, areaOfEffectDistance, layers, interaction);
+            foreach (var coll in affectedColliders)
             {
-                Health health = damageable.GetComponentInParent<Health>();
-                if (health && !uniqueDamagedHealths.ContainsKey(health))
+                Damageable damageable = coll.GetComponent<Damageable>();
+                if (damageable)
                 {
-                    uniqueDamagedHealths.Add(health, damageable);
+                    Health health = damageable.GetComponentInParent<Health>();
+                    if (health && !uniqueDamagedHealths.ContainsKey(health))
+                    {
+                        uniqueDamagedHealths.Add(health, damageable);
+                    }
                 }
+            }
+
+            // Apply damages with distance falloff
+            foreach (Damageable uniqueDamageable in uniqueDamagedHealths.Values)
+            {
+                float distance = Vector3.Distance(uniqueDamageable.transform.position, transform.position);
+                uniqueDamageable.InflictDamage(damage * damageRatioOverDistance.Evaluate(distance / areaOfEffectDistance), true, owner);
             }
         }
 
-        // Apply damages with distance falloff
-        foreach (Damageable uniqueDamageable in uniqueDamagedHealths.Values)
+        private void OnDrawGizmosSelected()
         {
-            float distance = Vector3.Distance(uniqueDamageable.transform.position, transform.position);
-            uniqueDamageable.InflictDamage(damage * damageRatioOverDistance.Evaluate(distance / areaOfEffectDistance), true, owner);
+            Gizmos.color = areaOfEffectColor;
+            Gizmos.DrawSphere(transform.position, areaOfEffectDistance);
         }
-    }
-
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = areaOfEffectColor;
-        Gizmos.DrawSphere(transform.position, areaOfEffectDistance);
     }
 }

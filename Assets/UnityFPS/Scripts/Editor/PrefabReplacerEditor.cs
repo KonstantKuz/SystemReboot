@@ -1,51 +1,53 @@
 ﻿using System.Collections.Generic;
-using UnityEngine;
 using UnityEditor;
+using UnityEngine;
 
-
-[CustomEditor(typeof(PrefabReplacer))]
-public class PrefabReplacerEditor : Editor
+namespace UnityFPS.Scripts.Editor
 {
-    public override void OnInspectorGUI()
+    [CustomEditor(typeof(PrefabReplacer))]
+    public class PrefabReplacerEditor : UnityEditor.Editor
     {
-        DrawDefaultInspector();
-
-        if(GUILayout.Button("Replace"))
+        public override void OnInspectorGUI()
         {
-            Replace((target as PrefabReplacer));
-        }
-    }
+            DrawDefaultInspector();
 
-    public void Replace(PrefabReplacer replacer)
-    {
-        List<GameObject> allPrefabObjectsInScene = new List<GameObject>();
-        foreach (Transform t in GameObject.FindObjectsOfType<Transform>())
-        {
-            if(PrefabUtility.IsAnyPrefabInstanceRoot(t.gameObject))
+            if(GUILayout.Button("Replace"))
             {
-                allPrefabObjectsInScene.Add(t.gameObject);
+                Replace((target as PrefabReplacer));
             }
         }
 
-        foreach (GameObject go in allPrefabObjectsInScene)
+        public void Replace(PrefabReplacer replacer)
         {
-            GameObject instanceSource = PrefabUtility.GetCorrespondingObjectFromSource(go);
-            foreach (var replacement in replacer.replacements)
+            List<GameObject> allPrefabObjectsInScene = new List<GameObject>();
+            foreach (Transform t in GameObject.FindObjectsOfType<Transform>())
             {
-                GameObject source = replacer.switchOrder ? replacement.TargetPrefab : replacement.SourcePrefab;
-                GameObject target = replacer.switchOrder ? replacement.SourcePrefab : replacement.TargetPrefab;
-
-                if (instanceSource == source)
+                if(PrefabUtility.IsAnyPrefabInstanceRoot(t.gameObject))
                 {
-                    // Create the instance
-                    GameObject instance = PrefabUtility.InstantiatePrefab(target) as GameObject;
-                    instance.transform.SetParent(go.transform.parent);
-                    instance.transform.position = go.transform.position;
-                    instance.transform.rotation = go.transform.rotation;
-                    instance.transform.localScale = go.transform.localScale;
+                    allPrefabObjectsInScene.Add(t.gameObject);
+                }
+            }
 
-                    Undo.RegisterCreatedObjectUndo(instance, "prefab replace");
-                    Undo.DestroyObjectImmediate(go);
+            foreach (GameObject go in allPrefabObjectsInScene)
+            {
+                GameObject instanceSource = PrefabUtility.GetCorrespondingObjectFromSource(go);
+                foreach (var replacement in replacer.replacements)
+                {
+                    GameObject source = replacer.switchOrder ? replacement.TargetPrefab : replacement.SourcePrefab;
+                    GameObject target = replacer.switchOrder ? replacement.SourcePrefab : replacement.TargetPrefab;
+
+                    if (instanceSource == source)
+                    {
+                        // Create the instance
+                        GameObject instance = PrefabUtility.InstantiatePrefab(target) as GameObject;
+                        instance.transform.SetParent(go.transform.parent);
+                        instance.transform.position = go.transform.position;
+                        instance.transform.rotation = go.transform.rotation;
+                        instance.transform.localScale = go.transform.localScale;
+
+                        Undo.RegisterCreatedObjectUndo(instance, "prefab replace");
+                        Undo.DestroyObjectImmediate(go);
+                    }
                 }
             }
         }

@@ -1,4 +1,4 @@
-﻿using BaseUnit;
+﻿using UnitBase;
 using UnityEngine;
 using Zenject;
 
@@ -10,7 +10,8 @@ namespace Player.Service
 
         public override void InstallBindings()
         {
-            Container.Bind<PlayerService>().AsSingle().WithArguments(_player).NonLazy();
+            Container.Bind<PlayerService>().AsSingle().NonLazy();
+            Container.Resolve<PlayerService>().Init(_player);
         }
     }
 }

@@ -1,14 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-[ExecuteInEditMode]
-public class TemplateObject : MonoBehaviour
+namespace UnityFPS.Scripts
 {
-    public GameObject compatiblePrefab;
-
-    private void Update()
+    [ExecuteInEditMode]
+    public class TemplateObject : MonoBehaviour
     {
+        public GameObject compatiblePrefab;
+
+        private void Update()
+        {
         
+        }
     }
 }

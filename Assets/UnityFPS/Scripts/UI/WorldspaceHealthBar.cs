@@ -1,27 +1,30 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class WorldspaceHealthBar : MonoBehaviour
+namespace UnityFPS.Scripts.UI
 {
-    [Tooltip("Health component to track")]
-    public Health health;
-    [Tooltip("Image component displaying health left")]
-    public Image healthBarImage;
-    [Tooltip("The floating healthbar pivot transform")]
-    public Transform healthBarPivot;
-    [Tooltip("Whether the health bar is visible when at full health or not")]
-    public bool hideFullHealthBar = true;
-
-    void Update()
+    public class WorldspaceHealthBar : MonoBehaviour
     {
-        // update health bar value
-        healthBarImage.fillAmount = health.currentHealth / health.maxHealth;
-        
-        // rotate health bar to face the camera/player
-        healthBarPivot.LookAt(Camera.main.transform.position);
+        [Tooltip("Health component to track")]
+        public Health health;
+        [Tooltip("Image component displaying health left")]
+        public Image healthBarImage;
+        [Tooltip("The floating healthbar pivot transform")]
+        public Transform healthBarPivot;
+        [Tooltip("Whether the health bar is visible when at full health or not")]
+        public bool hideFullHealthBar = true;
 
-        // hide health bar if needed
-        if (hideFullHealthBar)
-            healthBarPivot.gameObject.SetActive(healthBarImage.fillAmount != 1);
+        void Update()
+        {
+            // update health bar value
+            healthBarImage.fillAmount = health.currentHealth / health.maxHealth;
+        
+            // rotate health bar to face the camera/player
+            healthBarPivot.LookAt(Camera.main.transform.position);
+
+            // hide health bar if needed
+            if (hideFullHealthBar)
+                healthBarPivot.gameObject.SetActive(healthBarImage.fillAmount != 1);
+        }
     }
 }

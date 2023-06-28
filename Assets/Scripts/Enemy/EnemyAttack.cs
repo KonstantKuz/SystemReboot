@@ -1,6 +1,9 @@
-﻿using BaseUnit;
+﻿using Common;
 using Extension;
+using Messenger.Message;
 using Player.Service;
+using UnitBase;
+using UnitBase.Component;
 using UnityEngine;
 using Util;
 using Weapon.Component;
@@ -8,7 +11,7 @@ using Zenject;
 
 namespace Enemy
 {
-    public class EnemyAttack : MonoBehaviour
+    public class EnemyAttack : MonoBehaviour, IMessageListener<UnitActiveStateChangedMessage>
     {
         [SerializeField] private AnimatorLookAt _animatorLookAt;
         [SerializeField] private float _attackDistance;
@@ -49,6 +52,14 @@ namespace Enemy
         {
             if(_animatorLookAt.Target == null) return;
             _weaponWrapper.Fire(null);
+        }
+
+        public void OnMessage(UnitActiveStateChangedMessage message)
+        {
+            if(message.IsActive) return;
+            _animatorLookAt.Target = null;
+            _attackTimer.Dispose();
+            enabled = false;
         }
     }
 }

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Common;
 using Extension;
 using Ragdoll.Sliceable;
 using SuperMaxim.Core.Extensions;
@@ -8,21 +9,43 @@ using UnityEngine;
 
 namespace Weapon.Component
 {
-    public class SlicingWeapon : BaseWeapon
+    public class SlicingWeapon : BaseWeapon, IHitNotifier
     {
         [SerializeField] private Transform _sliceConeOrigin;
         [SerializeField] private float _maxDistance;
         [SerializeField] private float _maxAngle;
         [SerializeField] private float _force;
 
+        public event Action<HitInfo> OnHit;
+
         public override void Fire(Action<HitInfo> hitCallback)
         {
             var hits = Physics.OverlapSphere(_sliceConeOrigin.position, _maxDistance)
                 .Where(it => IsInAttackRange(it.transform.position));
+            SliceHits(hits);
+            NotifyHits(hits, hitCallback);
+        }
+
+        private void SliceHits(IEnumerable<Collider> hits)
+        {
             var sliceables = hits.Select(it => it.GetComponentInParent<ISliceable>())
-                .Where(it => it != null);
-            var uniqueSliceables = new HashSet<ISliceable>(sliceables);
-            uniqueSliceables.ForEach(Slice);
+                .Where(it => it != null)
+                .ToHashSet();
+            sliceables.ForEach(Slice);
+        }
+
+        private void NotifyHits(IEnumerable<Collider> hits, Action<HitInfo> hitCallback)
+        {
+            var rootHitInfos = hits.Select(it => it.GetComponentInParent<IObjectRoot>())
+                .Where(it => it != null)
+                .ToHashSet()
+                .Select(it => new HitInfo {RootGameObject = it.Root});
+            
+            rootHitInfos.ForEach(it =>
+            {
+                hitCallback?.Invoke(it);
+                OnHit?.Invoke(it);
+            });
         }
 
         private bool IsInAttackRange(Vector3 point)

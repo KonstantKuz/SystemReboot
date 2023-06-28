@@ -31,7 +31,7 @@ namespace Weapon.Component
             if (_animator != null)
             {
                 _hitCallback = hitCallback;
-                _animator.SetTrigger(AnimatorHash.ATTACK_HASH);
+                _animator.Play(AnimatorHash.ATTACK_HASH);
             }
             else
             {

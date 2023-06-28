@@ -1,42 +1,45 @@
 ﻿using UnityEngine;
 
-public class DisplayMessage : MonoBehaviour
+namespace UnityFPS.Scripts.UI
 {
-    [Tooltip("The text that will be displayed")]
-    [TextArea]
-    public string message;
-    [Tooltip("Prefab for the message")]
-    public GameObject messagePrefab;
-    [Tooltip("Delay before displaying the message")]
-    public float delayBeforeShowing;
-
-    float m_InitTime = float.NegativeInfinity;
-    bool m_WasDisplayed;
-    DisplayMessageManager m_DisplayMessageManager;
-
-    void Start()
+    public class DisplayMessage : MonoBehaviour
     {
-        m_InitTime = Time.time;
-        m_DisplayMessageManager = FindObjectOfType<DisplayMessageManager>();
-        DebugUtility.HandleErrorIfNullFindObject<DisplayMessageManager, DisplayMessage>(m_DisplayMessageManager, this);
-    }
+        [Tooltip("The text that will be displayed")]
+        [TextArea]
+        public string message;
+        [Tooltip("Prefab for the message")]
+        public GameObject messagePrefab;
+        [Tooltip("Delay before displaying the message")]
+        public float delayBeforeShowing;
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (m_WasDisplayed)
-            return;
+        float m_InitTime = float.NegativeInfinity;
+        bool m_WasDisplayed;
+        DisplayMessageManager m_DisplayMessageManager;
 
-        if (Time.time - m_InitTime > delayBeforeShowing)
+        void Start()
         {
-            var messageInstance = Instantiate(messagePrefab, m_DisplayMessageManager.DisplayMessageRect);
-            var notification = messageInstance.GetComponent<NotificationToast>();
-            if (notification)
-            {
-                notification.Initialize(message);
-            }
+            m_InitTime = Time.time;
+            m_DisplayMessageManager = FindObjectOfType<DisplayMessageManager>();
+            DebugUtility.HandleErrorIfNullFindObject<DisplayMessageManager, DisplayMessage>(m_DisplayMessageManager, this);
+        }
 
-            m_WasDisplayed = true;
+        // Update is called once per frame
+        void Update()
+        {
+            if (m_WasDisplayed)
+                return;
+
+            if (Time.time - m_InitTime > delayBeforeShowing)
+            {
+                var messageInstance = Instantiate(messagePrefab, m_DisplayMessageManager.DisplayMessageRect);
+                var notification = messageInstance.GetComponent<NotificationToast>();
+                if (notification)
+                {
+                    notification.Initialize(message);
+                }
+
+                m_WasDisplayed = true;
+            }
         }
     }
 }

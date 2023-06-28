@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace BaseUnit
+namespace UnitBase
 {
     public interface ITarget
     {

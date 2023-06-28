@@ -2,21 +2,24 @@
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
-public class LoadSceneButton : MonoBehaviour
+namespace UnityFPS.Scripts.UI
 {
-    public string sceneName = "";
-
-    private void Update()
+    public class LoadSceneButton : MonoBehaviour
     {
-        if(EventSystem.current.currentSelectedGameObject == gameObject 
-            && Input.GetButtonDown(GameConstants.k_ButtonNameSubmit))
+        public string sceneName = "";
+
+        private void Update()
         {
-            LoadTargetScene();
+            if(EventSystem.current.currentSelectedGameObject == gameObject 
+               && Input.GetButtonDown(GameConstants.k_ButtonNameSubmit))
+            {
+                LoadTargetScene();
+            }
         }
-    }
 
-    public void LoadTargetScene()
-    {
-        SceneManager.LoadScene(sceneName);
+        public void LoadTargetScene()
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 }

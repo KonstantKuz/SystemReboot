@@ -1,29 +1,32 @@
 ﻿using UnityEngine;
 
-public class JetpackPickup : MonoBehaviour
+namespace UnityFPS.Scripts
 {
-    Pickup m_Pickup;
-
-    void Start()
+    public class JetpackPickup : MonoBehaviour
     {
-        m_Pickup = GetComponent<Pickup>();
-        DebugUtility.HandleErrorIfNullGetComponent<Pickup, JetpackPickup>(m_Pickup, this, gameObject);
+        Pickup m_Pickup;
 
-        // Subscribe to pickup action
-        m_Pickup.onPick += OnPicked;
-    }
-
-    void OnPicked(PlayerCharacterController byPlayer)
-    {
-        var jetpack = byPlayer.GetComponent<Jetpack>();
-        if (!jetpack)
-            return;
-
-        if (jetpack.TryUnlock())
+        void Start()
         {
-            m_Pickup.PlayPickupFeedback();
+            m_Pickup = GetComponent<Pickup>();
+            DebugUtility.HandleErrorIfNullGetComponent<Pickup, JetpackPickup>(m_Pickup, this, gameObject);
 
-            Destroy(gameObject);
+            // Subscribe to pickup action
+            m_Pickup.onPick += OnPicked;
+        }
+
+        void OnPicked(PlayerCharacterController byPlayer)
+        {
+            var jetpack = byPlayer.GetComponent<Jetpack>();
+            if (!jetpack)
+                return;
+
+            if (jetpack.TryUnlock())
+            {
+                m_Pickup.PlayPickupFeedback();
+
+                Destroy(gameObject);
+            }
         }
     }
 }

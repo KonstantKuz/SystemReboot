@@ -1,7 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class IgnoreHitDetection : MonoBehaviour
+namespace UnityFPS.Scripts
 {
+    public class IgnoreHitDetection : MonoBehaviour
+    {
+    }
 }
