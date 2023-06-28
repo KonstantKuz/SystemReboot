@@ -1,17 +1,21 @@
-﻿using Extension;
+﻿using BaseUnit;
+using Extension;
+using Player.Component;
 using Weapon.Component;
 
 namespace Player.Service
 {
     public class PlayerService
     {
-        public PlayerService(PlayerCharacterController playerCharacterController)
+        public PlayerService(Unit player)
         {
-            Player = playerCharacterController;
-            WeaponContainer = playerCharacterController.RequireComponentInChildren<WeaponContainer>();
+            Player = player;
+            PlayerAttack = Player.gameObject.RequireComponent<PlayerAttack>();
         }
 
-        public PlayerCharacterController Player { get; }
-        public WeaponContainer WeaponContainer { get; }
+        public Unit Player { get; }
+        public PlayerAttack PlayerAttack { get; }
+
+        public void SwitchWeapon(BaseWeapon weapon) => PlayerAttack.SwitchWeapon(weapon);
     }
 }
