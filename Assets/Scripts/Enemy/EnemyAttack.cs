@@ -1,4 +1,5 @@
-﻿using Combat.Weapon.Base;
+﻿using System;
+using Combat.Weapon.Base;
 using Combat.Weapon.Component;
 using Common;
 using Extension;
@@ -50,7 +51,7 @@ namespace Enemy
 
         private void Fire()
         {
-            if (IsTargetInAttackRange) return;
+            if (!IsTargetInAttackRange) return;
             _weaponWrapper.Fire(null);
         }
 
@@ -59,6 +60,12 @@ namespace Enemy
             if(message.IsActive) return;
             _attackTimer.Dispose();
             enabled = false;
+        }
+
+        private void OnDrawGizmos()
+        {
+            Gizmos.color=Color.red;
+            Gizmos.DrawWireSphere(transform.position, _attackDistance);
         }
     }
 }
