@@ -3165,8 +3165,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _barrel: {fileID: 4422187836827227686}
-  _force: 10
-  _verticalForce: 5
+  _force: 15
+  _verticalForce: 10
 --- !u!1 &7070813728416938708
 GameObject:
   m_ObjectHideFlags: 0
@@ -4393,6 +4393,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11423590, guid: c0c356ca5fe9b1443b4b8759ed02eb2f, type: 3}
+      propertyPath: CountRange.Minimum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11423590, guid: c0c356ca5fe9b1443b4b8759ed02eb2f, type: 3}
       propertyPath: EndWidthMultiplier
       value: 5
       objectReference: {fileID: 0}
@@ -4434,11 +4438,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11423590, guid: c0c356ca5fe9b1443b4b8759ed02eb2f, type: 3}
       propertyPath: TrunkWidthRange.Maximum
-      value: 0.05
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 11423590, guid: c0c356ca5fe9b1443b4b8759ed02eb2f, type: 3}
       propertyPath: TrunkWidthRange.Minimum
-      value: 0.03
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 11423590, guid: c0c356ca5fe9b1443b4b8759ed02eb2f, type: 3}
       propertyPath: LightParameters.LightRange

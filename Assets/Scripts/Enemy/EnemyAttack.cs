@@ -1,28 +1,33 @@
-﻿using Common;
+﻿using Combat.Weapon.Base;
+using Combat.Weapon.Component;
+using Common;
 using Extension;
+using Messenger;
 using Messenger.Message;
 using Player.Service;
-using UnitBase;
-using UnitBase.Component;
+using Unit.Movement;
+using Unit.Target;
 using UnityEngine;
 using Util;
-using Weapon.Component;
 using Zenject;
 
 namespace Enemy
 {
     public class EnemyAttack : MonoBehaviour, IMessageListener<UnitActiveStateChangedMessage>
     {
-        [SerializeField] private AnimatorLookAt _animatorLookAt;
+        [SerializeField] private LookAtWrapper _lookAtWrapper;
         [SerializeField] private float _attackDistance;
         [SerializeField] private int _attackInterval;
-        [SerializeField] private float _rotationSpeed;
 
         private AnimatedWeaponWrapper _weaponWrapper;
         private Timer _attackTimer;
         
         [Inject] private PlayerService _playerService;
 
+        private ITarget Target => _playerService.Player.SelfTarget;
+        private bool IsTargetInAttackRange =>
+            Vector3.Distance(transform.position, Target.Center.position) < _attackDistance;
+        
         private void Awake()
         {
             var weapon = gameObject.RequireComponentInChildren<BaseWeapon>();
@@ -33,31 +38,25 @@ namespace Enemy
 
         private void Update()
         {
-            if (Vector3.Distance(transform.position, _playerService.Player.transform.position) < _attackDistance)
+            if (IsTargetInAttackRange)
             {
-                _animatorLookAt.Target = _playerService.Player.SelfTarget.Center;
+                _lookAtWrapper.LookAt(Target.Center.position);
             }
-            if(_animatorLookAt.Target == null) return;
-            LookAt(_animatorLookAt.Target.position);
-        }
-
-        public void LookAt(Vector3 target)
-        {
-            var lookDirection = (target - transform.position).XZ();
-            var lookRotation = Quaternion.LookRotation(lookDirection);
-            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * _rotationSpeed);
+            else
+            {
+                _lookAtWrapper.Reset();
+            }
         }
 
         private void Fire()
         {
-            if(_animatorLookAt.Target == null) return;
+            if (IsTargetInAttackRange) return;
             _weaponWrapper.Fire(null);
         }
 
         public void OnMessage(UnitActiveStateChangedMessage message)
         {
             if(message.IsActive) return;
-            _animatorLookAt.Target = null;
             _attackTimer.Dispose();
             enabled = false;
         }

@@ -1,8 +1,8 @@
-﻿using Extension;
+﻿using Combat.Weapon.Service;
+using Extension;
 using Input;
 using Player.Component;
-using UnitBase;
-using Weapon.Service;
+using Unit;
 
 namespace Player.Service
 {
@@ -19,10 +19,10 @@ namespace Player.Service
             _activeWeaponService = activeWeaponService;
         }
 
-        public Unit Player { get; private set; }
+        public BaseUnit Player { get; private set; }
         public PlayerAttack PlayerAttack { get; private set; }
 
-        public void Init(Unit player)
+        public void Init(BaseUnit player)
         {
             Player = player;
             PlayerAttack = Player.gameObject.RequireComponent<PlayerAttack>();

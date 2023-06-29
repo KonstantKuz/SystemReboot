@@ -1,4 +1,4 @@
-﻿using UnitBase;
+﻿using Unit;
 using UnityEngine;
 using Zenject;
 
@@ -6,7 +6,7 @@ namespace Player.Service
 {
     public class PlayerInstaller : MonoInstaller
     {
-        [SerializeField] private Unit _player;
+        [SerializeField] private BaseUnit _player;
 
         public override void InstallBindings()
         {

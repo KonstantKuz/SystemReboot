@@ -1,8 +1,9 @@
-﻿using Damageable;
+﻿using Combat.Damageable;
+using Combat.Weapon.Base;
+using Combat.Weapon.Component;
 using Extension;
 using Input;
 using UnityEngine;
-using Weapon.Component;
 using Zenject;
 
 namespace Player.Component
