@@ -118,10 +118,10 @@ namespace UnityFPS.Scripts
         float m_footstepDistanceCounter;
         float m_TargetCharacterHeight;
 
-        const float k_JumpGroundingPreventionTime = 0.2f;
+        const float k_JumpGroundingPreventionTime = 0.1f;
         const float k_GroundCheckDistanceInAir = 0.07f;
 
-        WallRun wallRunComponent;
+        PlayerWallRunController wallRunComponent;
 
         void Start()
         {
@@ -141,7 +141,7 @@ namespace UnityFPS.Scripts
             m_Actor = GetComponent<Actor>();
             DebugUtility.HandleErrorIfNullGetComponent<Actor, PlayerCharacterController>(m_Actor, this, gameObject);
 
-            wallRunComponent = GetComponent<WallRun>();
+            wallRunComponent = GetComponent<PlayerWallRunController>();
 
             m_Controller.enableOverlapRecovery = true;
 
@@ -298,34 +298,7 @@ namespace UnityFPS.Scripts
                     // jumping
                     if ((isGrounded || (wallRunComponent != null && wallRunComponent.IsWallRunning())) && m_InputHandler.GetJumpInputDown())
                     {
-                        // force the crouch state to false
-                        if (SetCrouchingState(false, false))
-                        {
-                            if(isGrounded)
-                            {
-                                // start by canceling out the vertical component of our velocity
-                                characterVelocity = new Vector3(characterVelocity.x, 0f, characterVelocity.z);
-                                // then, add the jumpSpeed value upwards
-                                characterVelocity += Vector3.up * jumpForce;
-                            }
-                            else
-                            {
-                                characterVelocity = new Vector3(characterVelocity.x, 0f, characterVelocity.z);
-                                // then, add the jumpSpeed value upwards
-                                characterVelocity += wallRunComponent.GetWallJumpDirection() * jumpForce;
-                            }
-
-                            // play sound
-                            audioSource.PlayOneShot(jumpSFX);
-
-                            // remember last time we jumped because we need to prevent snapping to ground for a short time
-                            m_LastTimeJumped = Time.time;
-                            hasJumpedThisFrame = true;
-
-                            // Force grounding to false
-                            isGrounded = false;
-                            m_GroundNormal = Vector3.up;
-                        }
+                        Jump();
                     }
 
                     // footsteps sound
@@ -372,6 +345,38 @@ namespace UnityFPS.Scripts
                 m_LatestImpactSpeed = characterVelocity;
 
                 characterVelocity = Vector3.ProjectOnPlane(characterVelocity, hit.normal);
+            }
+        }
+
+        public void Jump()
+        {
+            // force the crouch state to false
+            if (SetCrouchingState(false, false))
+            {
+                if (isGrounded)
+                {
+                    // start by canceling out the vertical component of our velocity
+                    characterVelocity = new Vector3(characterVelocity.x, 0f, characterVelocity.z);
+                    // then, add the jumpSpeed value upwards
+                    characterVelocity += Vector3.up * jumpForce;
+                }
+                else
+                {
+                    characterVelocity = new Vector3(characterVelocity.x, 0f, characterVelocity.z);
+                    // then, add the jumpSpeed value upwards
+                    characterVelocity += wallRunComponent.GetWallJumpDirection() * jumpForce;
+                }
+
+                // play sound
+                audioSource.PlayOneShot(jumpSFX);
+
+                // remember last time we jumped because we need to prevent snapping to ground for a short time
+                m_LastTimeJumped = Time.time;
+                hasJumpedThisFrame = true;
+
+                // Force grounding to false
+                isGrounded = false;
+                m_GroundNormal = Vector3.up;
             }
         }
 

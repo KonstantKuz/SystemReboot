@@ -4,6 +4,6 @@ namespace Combat.Weapon.Base
 {
     public interface IFireNotifier
     {
-        event Action OnShoot;
+        event Action OnFire;
     }
 }

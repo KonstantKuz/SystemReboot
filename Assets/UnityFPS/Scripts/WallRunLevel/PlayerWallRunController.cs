@@ -5,7 +5,7 @@ using UnityEngine.Rendering;
 namespace UnityFPS.Scripts.WallRunLevel
 {
     [RequireComponent (typeof(PlayerCharacterController))]
-    public class WallRun : MonoBehaviour
+    public class PlayerWallRunController : MonoBehaviour
     {
 
         public float wallMaxDistance = 1;

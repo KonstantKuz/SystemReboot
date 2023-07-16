@@ -1,9 +1,7 @@
-﻿using System;
-using Extension;
+﻿using Extension;
 using SuperMaxim.Core.Extensions;
 using UnityEngine;
 using UnityEngine.Animations.Rigging;
-using UnityEngine.XR;
 
 namespace Ragdoll.Sliceable
 {

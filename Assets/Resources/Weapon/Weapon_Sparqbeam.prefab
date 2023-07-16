@@ -3050,10 +3050,10 @@ GameObject:
   - component: {fileID: 6119343709863505257}
   - component: {fileID: 2742541765709342106}
   - component: {fileID: 5050371444357751554}
-  - component: {fileID: 8286863302847631115}
-  - component: {fileID: 8031921870836541132}
   - component: {fileID: 7998297574934530815}
-  - component: {fileID: 6052354108686282797}
+  - component: {fileID: 8286863302847631115}
+  - component: {fileID: 8611705317090383148}
+  - component: {fileID: 8031921870836541132}
   m_Layer: 10
   m_Name: Weapon_Sparqbeam
   m_TagString: Untagged
@@ -3110,34 +3110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88c078d98c7d9504796f48013718b4b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8286863302847631115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6892642690825926611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 728c7d9e3cc2e04449bb5ea91f3aa624, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _raycastOrigin: {fileID: 4422187836827227686}
-  _maxDistance: 30
---- !u!114 &8031921870836541132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6892642690825926611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6fde9d3b0f54d0b9e0204a8c4810762, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _barrel: {fileID: 4422187836827227686}
-  _lightning: {fileID: 8463412011909520271}
 --- !u!114 &7998297574934530815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3152,7 +3124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _targetMesh: {fileID: 8811041369337537397}
   _targetRootBone: {fileID: 1651220545433161641}
---- !u!114 &6052354108686282797
+--- !u!114 &8286863302847631115
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3161,12 +3133,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 6892642690825926611}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd427e8fbcc84054a45df57dfe469397, type: 3}
+  m_Script: {fileID: 11500000, guid: 728c7d9e3cc2e04449bb5ea91f3aa624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _raycastOrigin: {fileID: 4422187836827227686}
+  _maxDistance: 30
+  _hitListeners:
+  - {fileID: 8611705317090383148}
+  - {fileID: 8031921870836541132}
+--- !u!114 &8611705317090383148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6892642690825926611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97dcfc7484604803814f1453669d1026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _direction: {fileID: 4422187836827227686}
+  _force: 20
+--- !u!114 &8031921870836541132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6892642690825926611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6fde9d3b0f54d0b9e0204a8c4810762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _barrel: {fileID: 4422187836827227686}
-  _force: 15
-  _verticalForce: 10
+  _lightning: {fileID: 8463412011909520271}
 --- !u!1 &7070813728416938708
 GameObject:
   m_ObjectHideFlags: 0

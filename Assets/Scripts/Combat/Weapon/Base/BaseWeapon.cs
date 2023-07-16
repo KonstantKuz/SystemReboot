@@ -1,4 +1,5 @@
 using System;
+using Combat.Hit;
 using UnityEngine;
 
 namespace Combat.Weapon.Base

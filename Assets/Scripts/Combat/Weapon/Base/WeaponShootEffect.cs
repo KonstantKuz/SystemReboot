@@ -10,14 +10,14 @@ namespace Combat.Weapon.Base
 
         public virtual void Awake()
         {
-            Notifier.OnShoot += PlayEffect;
+            Notifier.OnFire += PlayEffect;
         }
 
         protected abstract void PlayEffect();
 
         public virtual void OnDestroy()
         {
-            Notifier.OnShoot -= PlayEffect;
+            Notifier.OnFire -= PlayEffect;
         }
     }
 }

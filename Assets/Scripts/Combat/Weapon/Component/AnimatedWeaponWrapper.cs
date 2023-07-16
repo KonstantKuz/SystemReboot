@@ -1,5 +1,6 @@
 ﻿using System;
 using Animation;
+using Combat.Hit;
 using Combat.Weapon.Base;
 using Extension;
 using JetBrains.Annotations;

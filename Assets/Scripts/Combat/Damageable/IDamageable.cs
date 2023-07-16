@@ -1,7 +1,11 @@
-﻿namespace Combat.Damageable
+﻿using System;
+using Combat.Hit;
+
+namespace Combat.Damageable
 {
     public interface IDamageable
     {
-        void TakeDamage(DamageInfo damageInfo);
+        event Action<HitInfo> OnDamageTaken;
+        void TakeDamage(HitInfo hitInfo);
     }
 }

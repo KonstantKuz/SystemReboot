@@ -82,7 +82,7 @@ namespace UnityFPS.Scripts
         WeaponSwitchState m_WeaponSwitchState;
         int m_WeaponSwitchNewWeaponIndex;
 
-        WallRun wallRunComponent;
+        PlayerWallRunController wallRunComponent;
 
 
         private void Start()
@@ -96,7 +96,7 @@ namespace UnityFPS.Scripts
             m_PlayerCharacterController = GetComponent<PlayerCharacterController>();
             DebugUtility.HandleErrorIfNullGetComponent<PlayerCharacterController, PlayerWeaponsManager>(m_PlayerCharacterController, this, gameObject);
         
-            wallRunComponent = GetComponent<WallRun>();
+            wallRunComponent = GetComponent<PlayerWallRunController>();
 
             SetFOV(defaultFOV);
 

@@ -19,7 +19,7 @@ namespace Ragdoll.Sliceable
         public void TestSlice()
         {
             OnBeforeSlice?.Invoke();
-            var sliceParams = new SliceParams
+            var sliceParams = new SliceInfo
             {
                 Plane = new Plane(Vector3.up, transform.position + Vector3.up),
                 Force = -transform.forward * _topPartForce,
@@ -27,10 +27,10 @@ namespace Ragdoll.Sliceable
             Slice(sliceParams);
         }
 
-        public void Slice(SliceParams sliceParams)
+        public void Slice(SliceInfo sliceInfo)
         {
             OnBeforeSlice?.Invoke();
-            _sliceableCharacter.Slice(sliceParams.Plane, result => OnSliceComplete(result, sliceParams.Force));
+            _sliceableCharacter.Slice(sliceInfo.Plane, result => OnSliceComplete(result, sliceInfo.Force));
         }
 
         private void OnSliceComplete(BzSliceTryResult result, Vector3 force)

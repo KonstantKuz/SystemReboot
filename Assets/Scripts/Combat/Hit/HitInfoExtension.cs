@@ -1,43 +1,23 @@
-﻿using Combat.Damageable;
-using Common;
-using JetBrains.Annotations;
+﻿using System.Collections.Generic;
+using Combat.Damageable;
+using Combat.Weapon.HitListener;
+using SuperMaxim.Core.Extensions;
 using UnityEngine;
 
-namespace Combat.Weapon.Base
+namespace Combat.Hit
 {
-    public class HitInfo
-    {
-        [CanBeNull]
-        public GameObject RootGameObject;
-        [CanBeNull]
-        public RaycastHit? RaycastHit;
-        [CanBeNull]
-        public object CustomData;
-
-        public static HitInfo FromRaycastHit(RaycastHit raycastHit)
-        {
-            if (raycastHit.collider == null) return null;
-         
-            var root = raycastHit.collider.GetComponentInParent<IObjectRoot>();
-            return new HitInfo
-            {
-                RootGameObject = root?.Root ?? raycastHit.collider.gameObject,
-                RaycastHit = raycastHit,
-            };
-        }
-
-        public static HitInfo WithCustomData(GameObject root, object data)
-        {
-            return new HitInfo
-            {
-                RootGameObject = root,
-                CustomData = data,
-            };
-        }
-    }
-
     public static class HitInfoExtension
     {
+        public static bool IsEmpty(this HitInfo hitInfo)
+        {
+            return hitInfo.RootGameObject == null && hitInfo.RaycastHit == null;
+        }
+
+        public static bool IsCritical(this HitInfo hitInfo)
+        {
+            return hitInfo.TryGetAdditionalInfo(out IsCriticalInfo isCritical) && isCritical.Value;
+        }
+        
         public static bool TryGetRootDamageable(this HitInfo hitInfo, out IDamageable damageable)
         {
             damageable = hitInfo.RootGameObject ? hitInfo.RootGameObject.GetComponent<IDamageable>() : null;
@@ -69,6 +49,14 @@ namespace Combat.Weapon.Base
             }
 
             return false;
+        }
+
+        public static void NotifyListeners(this ref HitInfo hitInfo, IEnumerable<IHitListener> listeners)
+        {
+            foreach (var hitModifier in listeners)
+            {
+                hitModifier.OnHit(ref hitInfo);
+            }
         }
     }
 }

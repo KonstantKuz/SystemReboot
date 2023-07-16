@@ -1,4 +1,5 @@
 ﻿using Combat.Damageable;
+using Combat.Hit;
 using Combat.Weapon.Base;
 using Combat.Weapon.Component;
 using Extension;
@@ -20,7 +21,7 @@ namespace Player.Component
 
         private void Awake()
         {
-            _inputService.OnMouseClick += Attack;
+            _inputService.OnLeftMouseClick += Attack;
         }
 
         public void ReplaceWeapon(BaseWeapon weapon)
@@ -43,12 +44,14 @@ namespace Player.Component
             _weaponWrapper.Fire(OnHit);
         }
 
-        public void OnHit(HitInfo hitInfo)
+        private void OnHit(HitInfo hitInfo)
         {
-            if(hitInfo == null) return;
+            if(hitInfo.IsEmpty()) return;
+            
             if (hitInfo.TryGetRootDamageable(out var damageable))
             {
-                damageable.TakeDamage(DamageInfo.Create(int.MaxValue, hitInfo));
+                hitInfo.AppendInfo(DamageInfo.Create(int.MaxValue));
+                damageable.TakeDamage(hitInfo);
             }
             
             var hitColliderInfo = hitInfo.RaycastHit == null ? string.Empty : $"Hit collider name {hitInfo.RaycastHit.Value.collider.name}";
@@ -57,7 +60,7 @@ namespace Player.Component
 
         public void OnDestroy()
         {
-            _inputService.OnMouseClick -= Attack;
+            _inputService.OnLeftMouseClick -= Attack;
             _weaponWrapper.Dispose();
         }
     }

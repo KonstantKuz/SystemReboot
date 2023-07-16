@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Combat.HitEffect;
+using Combat.Hit;
 using Combat.Weapon.Base;
 using Common;
 using Extension;
@@ -11,14 +11,12 @@ using UnityEngine;
 
 namespace Combat.Weapon.Component
 {
-    public class SlicingWeapon : BaseWeapon, IHitNotifier
+    public class SlicingWeapon : BaseWeapon
     {
         [SerializeField] private Transform _sliceConeOrigin;
         [SerializeField] private float _maxDistance;
         [SerializeField] private float _maxAngle;
         [SerializeField] private float _force;
-
-        public event Action<HitInfo> OnHit;
 
         public override void Fire(Action<HitInfo> hitCallback)
         {
@@ -46,7 +44,6 @@ namespace Combat.Weapon.Component
             rootHitInfos.ForEach(it =>
             {
                 hitCallback?.Invoke(it);
-                OnHit?.Invoke(it);
             });
         }
 
@@ -57,7 +54,7 @@ namespace Combat.Weapon.Component
         
         private void Slice(ISliceable sliceable)
         {
-            var sliceParams = new SliceParams
+            var sliceParams = new SliceInfo
             {
                 Plane = new Plane(_sliceConeOrigin.up, _sliceConeOrigin.position),
                 Force = _sliceConeOrigin.forward * _force,
